@@ -3,7 +3,10 @@ import React from 'react';
 const About = () => {
   return (
     <div className="aboutMe">
-      <h2>Who Am I?</h2>
+      <div  style={{textAlign:"center"}}>
+        <h2>Who Am I?</h2>
+        <img src="https://i.ibb.co/hBQ0hb9/20180201-153404.jpg" alt="20180201-153404" width={250} height={350}></img>
+      </div><br></br>
         <p>I am a full stack web developer, and Certified Public Accountant with five years of
         experience in financial accounting.
         I have financial competence closing time-sensitive financial statements, and I have expertise using systems such as SAP,
@@ -20,8 +23,6 @@ const About = () => {
 
       <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
         advice and hear recommendations!</p>
-
-        <b>INSERT photos from travel </b>
     </div>
   );
 };
