@@ -18,7 +18,7 @@ const About = () => {
         JavaScript, and React a strength of mine. I look forward to expanding my knowledge of languages, contributing my
         persistent work ethic, and changing my career to something I am passionate about.</p>
 
-        <p>Check out the Bonus tab for some of my favorite things. I am always happy to give
+      <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
         advice and hear recommendations!</p>
 
         <b>INSERT photos from travel </b>
