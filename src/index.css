@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#wrapper {
+  background-color: rgb(240,240,240);
+  margin: 16px auto;
+  max-width: 1000px;
+  padding: 4%;
+  /* border-style: solid;
+  border-color: rgb(81, 132, 192); */
+}
