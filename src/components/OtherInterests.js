@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Bonus = () => {
+const OtherInterests = () => {
   return (
-    <div className="bonus">
+    <div className="otherInterests">
       <div>Map of places you have travelled </div>
       <div>Top Reading List </div>
       <div>Top Podcast List </div>
@@ -10,4 +10,4 @@ const Bonus = () => {
   );
 };
 
-export default Bonus;
+export default OtherInterests;
