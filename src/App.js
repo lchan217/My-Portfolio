@@ -6,6 +6,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
+import Bonus from './components/Bonus'
 import Contact from './components/Contact'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/about'  component={About} />
         <Route exact path='/projects'  component={Projects} />
         <Route exact path='/resume'  component={Resume} />
+        <Route exact path='/bonus'  component={Bonus} />
         <Route exact path='/contact'  component={Contact} />
       </div>
     </Router>
