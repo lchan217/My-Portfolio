@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="aboutMe">
       <h2>Who Am I?</h2>
-        <p>I am a University of Dayton grad, full stack web developer, and Certified Public Accountant with five years of
+        <p>I am a full stack web developer, and Certified Public Accountant with five years of
         experience in financial accounting.
         I have financial competence closing time-sensitive financial statements, and I have expertise using systems such as SAP,
         Blackline, and Hyperion Financial Management. </p>
