@@ -1,62 +1,123 @@
 import React from 'react';
+import { Card } from 'semantic-ui-react'
 
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>My Projects</h2>
-      <div className="animals">
-        <b>Animals Game: </b>
-          <a href='https://animals-game.herokuapp.com/' target="_blank">Play My Game </a>|
-          <a href='https://www.youtube.com/watch?v=u_D9pj6gzo8'  target="_blank"> Demo </a> |
-          <a href='https://github.com/lchan217/Project-5-Animals-Game' target="_blank"> Code </a><br></br>
-        App where users save endangered animals, nurse them back to health, and release into the wild <br></br>
-      <i>Foundation: React, Redux, Rails API</i>
-      </div>
+      <h1 style={{textAlign:"center"}}>My Projects</h1>
+        <Card.Group itemsPerRow={2}>
+          <div class="card">
+              <div class="image">
+                <img src="https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
+              </div>
+              <div class="content">
+                <div class="header">Animals Game</div>
+                <div class="meta">
+                  <a href='https://animals-game.herokuapp.com/' target="_blank">Play My Game </a>|
+                  <a href='https://www.youtube.com/watch?v=u_D9pj6gzo8'  target="_blank"> Demo </a> |
+                  <a href='https://github.com/lchan217/Project-5-Animals-Game' target="_blank"> Code </a><br></br>
+                </div>
+                <div class="description">
+                  App where users save endangered animals, nurse them back to health, and release into the wild
+                </div>
+              </div>
+              <div class="extra content">
+                <span class="left floated">
+                  <i>Foundation: React, Redux, Rails API</i>
+                </span>
+              </div>
+            </div>
 
-      <br></br>
+              <div class="card">
+                  <div class="image">
+                    <img src="https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70"></img>
+                  </div>
+                  <div class="content">
+                    <div class="header">Hog-Iron Collaboration Project</div>
+                    <div class="meta">
+                      <a href='https://hog-iron.herokuapp.com/' target="_blank"> Enroll Today </a>|
+                      <a href='' target="_blank"> Demo - need to do </a> |
+                      <a href='https://github.com/lchan217/Hog-Iron' target="_blank"> Code </a>
+                    </div>
+                    <div class="description">
+                      App where user can sign up for classes at Hog Warts <br></br><br></br>
+                      <b>My Contribution:</b> Setting up models and controllers, assisted with views
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <span class="left floated">
+                        <i>Foundation: Rails, Bootstrap</i>
+                    </span>
+                  </div>
+                </div>
+          </Card.Group>
 
-      <div className="restaurants">
-        <b>My Restaurants: </b>
-          <a href='https://restaurants1000.herokuapp.com/' target="_blank"> Log Some Restaurants </a>|
-          <a href='https://www.youtube.com/watch?v=4wTQYPsNjJ8' target="_blank"> Demo </a> |
-          <a href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final' target="_blank"> Code </a><br></br>
-          App that allows users to enter information about restaurants and their menu items<br></br>
-        <i>Foundation: Rails, JavaScript, jQuery</i>
-      </div>
+          <Card.Group itemsPerRow={3}>
+            <div class="card">
+                <div class="image">
+                  <img src="https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
+                </div>
+                <div class="content">
+                  <div class="header">Destination Tracker</div>
+                  <div class="meta">
+                    <a href='https://destinations1000.herokuapp.com/' target="_blank"> Track Those Destinations </a>|
+                    <a href='https://www.youtube.com/watch?v=A1OR5Khzv38' target="_blank"> Demo </a> |
+                    <a href='https://github.com/lchan217/Project-2-Travel' target="_blank"> Code </a>
+                  </div>
+                  <div class="description">
+                    App designed to log destinations user has visited and would like to visit
+                  </div>
+                </div>
+                <div class="extra content">
+                  <span class="left floated">
+                    <i>Foundation: Sinatra, CSS, Bootstrap</i>
+                  </span>
+                </div>
+              </div>
 
-      <br></br>
+              <div class="card">
+                  <div class="image">
+                    <img src="https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg"></img>
+                  </div>
+                  <div class="content">
+                    <div class="header">My Restaurants</div>
+                    <div class="meta">
+                      <a href='https://restaurants1000.herokuapp.com/' target="_blank"> Log Some Restaurants </a>|
+                      <a href='https://www.youtube.com/watch?v=4wTQYPsNjJ8' target="_blank"> Demo </a> |
+                      <a href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final' target="_blank"> Code </a>
+                    </div>
+                    <div class="description">
+                      App that allows users to enter information about restaurants and their menu items
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <span class="left floated">
+                      <i>Foundation: Rails, JavaScript, jQuery</i>
+                    </span>
+                  </div>
+                </div>
 
-
-      <div className="destinations">
-        <b>Destination Tracker: </b>
-          <a href='https://destinations1000.herokuapp.com/' target="_blank"> Track Those Destinations </a>|
-          <a href='https://www.youtube.com/watch?v=A1OR5Khzv38' target="_blank"> Demo </a> |
-          <a href='https://github.com/lchan217/Project-2-Travel' target="_blank"> Code </a><br></br>
-          App designed to log destinations user has visited and would like to visit <br></br>
-        <i>Foundation: Sinatra, CSS, Bootstrap</i>
-      </div>
-
-      <br></br>
-
-      <div className="hogIron">
-        <b>Hog-Iron Collaboration Project: </b>
-          <a href='https://hog-iron.herokuapp.com/' target="_blank"> Enroll Today </a>|
-          <a href='' target="_blank"> Demo - need to do </a> |
-          <a href='https://github.com/lchan217/Hog-Iron' target="_blank"> Code </a><br></br>
-          App where user can sign up for classes at Hog Warts <br></br>
-        <b>My Contribution:</b> Setting up models and controllers, assisted with views <br></br>
-        <i>Foundation: Rails, Bootstrap  </i>
-      </div>
-
-      <br></br>
-      <div className="goodreads">
-        <b>Goodreads:  </b>
-          <a href='https://www.youtube.com/watch?v=xOYFTuSu-vs' target="_blank"> Demo </a> |
-          <a href='https://github.com/lchan217/Project-1-Goodreads' target="_blank"> Code </a><br></br>
-          App allows users to see the 2018 Goodreads Choice Awards winners along with author, title, rating, and description <br></br>
-        <i>Foundation: Ruby, Nokogiri  </i>
-      </div>
-
+                <div class="card">
+                    <div class="image">
+                      <img src="https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"></img>
+                    </div>
+                    <div class="content">
+                      <div class="header">Goodreads</div>
+                      <div class="meta">
+                        <a href='https://www.youtube.com/watch?v=xOYFTuSu-vs' target="_blank"> Demo </a> |
+                        <a href='https://github.com/lchan217/Project-1-Goodreads' target="_blank"> Code </a>
+                      </div>
+                      <div class="description">
+                        App allows users to see the 2018 Goodreads Choice Awards winners along with author, title, rating, and description
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <span class="left floated">
+                        <i>Foundation: Ruby, Nokogiri  </i>
+                      </span>
+                    </div>
+                  </div>
+            </Card.Group>
     </div>
   );
 };
