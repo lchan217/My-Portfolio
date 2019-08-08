@@ -52,7 +52,7 @@ const Projects = () => {
                 </div>
           </Card.Group>
 
-          <Card.Group itemsPerRow={3}>
+          <Card.Group itemsPerRow={2}>
             <div class="card">
                 <div class="image">
                   <img src="https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
@@ -96,27 +96,28 @@ const Projects = () => {
                     </span>
                   </div>
                 </div>
-
-                <div class="card">
-                    <div class="image">
-                      <img src="https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"></img>
-                    </div>
-                    <div class="content">
-                      <div class="header">Goodreads</div>
-                      <div class="meta">
-                        <a href='https://www.youtube.com/watch?v=xOYFTuSu-vs' target="_blank"> Demo </a> |
-                        <a href='https://github.com/lchan217/Project-1-Goodreads' target="_blank"> Code </a>
-                      </div>
-                      <div class="description">
-                        App allows users to see the 2018 Goodreads Choice Awards winners along with author, title, rating, and description
-                      </div>
-                    </div>
-                    <div class="extra content">
-                      <span class="left floated">
-                        <i>Foundation: Ruby, Nokogiri  </i>
-                      </span>
-                    </div>
+            </Card.Group>
+          <Card.Group itemsPerRow={2}>
+            <div class="card">
+                <div class="image">
+                  <img src="https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"></img>
+                </div>
+                <div class="content">
+                  <div class="header">Goodreads</div>
+                  <div class="meta">
+                    <a href='https://www.youtube.com/watch?v=xOYFTuSu-vs' target="_blank"> Demo </a> |
+                    <a href='https://github.com/lchan217/Project-1-Goodreads' target="_blank"> Code </a>
                   </div>
+                  <div class="description">
+                    App allows users to see the 2018 Goodreads Choice Awards winners along with author, title, rating, and description
+                  </div>
+                </div>
+                <div class="extra content">
+                  <span class="left floated">
+                    <i>Foundation: Ruby, Nokogiri  </i>
+                  </span>
+                </div>
+              </div>
             </Card.Group>
     </div>
   );
