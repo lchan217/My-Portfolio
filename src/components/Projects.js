@@ -40,7 +40,7 @@ const Projects = () => {
                       <a href='https://github.com/lchan217/Hog-Iron' target="_blank"> Code </a>
                     </div>
                     <div class="description">
-                      App where user can sign up for classes at Hog Warts <br></br><br></br>
+                      App where user can sign up for classes at Hogwarts <br></br><br></br>
                       <b>My Contribution:</b> Setting up models and controllers, assisted with views
                     </div>
                   </div>
