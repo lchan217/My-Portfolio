@@ -23,6 +23,13 @@ const About = () => {
 
       <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
         advice and hear recommendations!</p>
+
+      <div className="contactInfo" style={{textAlign:"center"}}>
+        <div><i class="envelope outline icon"></i>Email: Lchan217@gmail.com</div><br></br>
+        <a href="https://www.linkedin.com/in/elizabethchan1234/" target="_blank"><i class="large linkedin icon"></i></a>
+        <a href="https://github.com/lchan217" target="_blank"><i class="large github icon"></i></a>
+        <a href="https://lchan217.github.io/" target="_blank"><i class="edit outline icon"></i></a>
+      </div>
     </div>
   );
 };
