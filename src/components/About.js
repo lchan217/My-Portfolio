@@ -29,6 +29,7 @@ const About = () => {
         <a href="https://www.linkedin.com/in/elizabethchan1234/" target="_blank"><i class="large linkedin icon"></i></a>
         <a href="https://github.com/lchan217" target="_blank"><i class="large github icon"></i></a>
         <a href="https://lchan217.github.io/" target="_blank"><i class="edit outline icon"></i></a>
+        <h1>add resume when finished</h1>
       </div>
     </div>
   );
