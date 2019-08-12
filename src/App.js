@@ -8,6 +8,8 @@ import Experience from './components/Experience'
 import OtherInterests from './components/OtherInterests'
 import Contact from './components/Contact'
 
+  // <Route exact path='/interests'  component={OtherInterests} />
+
 function App() {
   return (
     <Router>
@@ -17,7 +19,7 @@ function App() {
           <Route exact path='/about'  component={About} />
           <Route exact path='/projects'  component={Projects} />
           <Route exact path='/experience'  component={Experience} />
-          <Route exact path='/interests'  component={OtherInterests} />
+
           <Route exact path='/contact'  component={Contact} />
         </div>
       </div>

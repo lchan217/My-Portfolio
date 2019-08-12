@@ -3,7 +3,7 @@ import React from 'react';
 const OtherInterests = () => {
   return (
     <div className="otherInterests">
-
+      
         <h1>Favorite Places</h1>
         <div class="ui items">
           <div class="item">
