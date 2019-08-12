@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="aboutMe">
       <div  style={{textAlign:"center"}}>
-        <h2>Who Am I?</h2>
+        <h2>Hi There!</h2>
         <img src="https://i.ibb.co/hBQ0hb9/20180201-153404.jpg" alt="20180201-153404" width={250} height={350}></img>
       </div><br></br>
         <p>I am a full stack web developer, and Certified Public Accountant with five years of
