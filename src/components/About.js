@@ -1,5 +1,5 @@
 import React from 'react';
-// 
+//
 // <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
 //   advice and hear recommendations!</p>
 
@@ -24,14 +24,12 @@ const About = () => {
         JavaScript, and React a strength of mine. I look forward to expanding my knowledge of languages, contributing my
         persistent work ethic, and changing my career to something I am passionate about.</p>
 
-
-
+        <p></p>
       <div className="contactInfo" style={{textAlign:"center"}}>
-        <div><i class="envelope outline icon"></i>Email: Lchan217@gmail.com</div><br></br>
+        <a href="mailto:lchan217@gmail.com"><i class="envelope large outline icon"></i></a>
         <a href="https://www.linkedin.com/in/elizabethchan1234/" target="_blank"><i class="large linkedin icon"></i></a>
         <a href="https://github.com/lchan217" target="_blank"><i class="large github icon"></i></a>
         <a href="https://lchan217.github.io/" target="_blank"><i class="edit outline icon"></i></a>
-        <h1>add resume when finished</h1>
       </div>
     </div>
   );

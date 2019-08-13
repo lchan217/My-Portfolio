@@ -25,6 +25,7 @@ const Experience = () => {
         </div>
       </Card.Group>
     <h2>My Experience</h2>
+    <h1>Download full resume</h1>
     <div><b>Mars, Incorporated</b></div>
     <i>Senior Accounting Specialist - Fixed Assets and General Accounting, February 2014 - November 2017</i>
     <ul>
