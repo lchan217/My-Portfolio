@@ -25,7 +25,7 @@ const Experience = () => {
         </div>
       </Card.Group>
     <h2>My Experience</h2>
-    <h1>Download full resume</h1>
+
     <div><b>Mars, Incorporated</b></div>
     <i>Senior Accounting Specialist - Fixed Assets and General Accounting, February 2014 - November 2017</i>
     <ul>
@@ -52,6 +52,7 @@ const Experience = () => {
         <li>Bachelor of Science in Accounting</li>
         <li>Bachelor of Music in Performance</li>
       </ul>
+      <a href="https://drive.google.com/open?id=12KJBLqS9EdWb8wzMOpib3sJZsmk-5UZK" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
     </div>
   );
 };
