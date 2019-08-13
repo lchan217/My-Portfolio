@@ -36,7 +36,7 @@ const Projects = () => {
                     <div class="header">Hog-Iron Collaboration Project</div>
                     <div class="meta">
                       <a href='https://hog-iron.herokuapp.com/' target="_blank"> Enroll Today </a>|
-                      <a href='' target="_blank"> Demo - need to do </a> |
+                      <a href='https://www.youtube.com/watch?v=1phiL0-Jcxk&feature=youtu.be'  target="_blank"> Demo </a> |
                       <a href='https://github.com/lchan217/Hog-Iron' target="_blank"> Code </a>
                     </div>
                     <div class="description">
