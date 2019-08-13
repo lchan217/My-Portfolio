@@ -23,7 +23,7 @@ const Projects = () => {
               </div>
               <div class="extra content">
                 <span class="left floated">
-                  <i>Foundation: React, Redux, Rails API</i>
+                  <i>Technologies and Frameworks: React, Redux, Rails API</i>
                 </span>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                   </div>
                   <div class="extra content">
                     <span class="left floated">
-                        <i>Foundation: Rails, Bootstrap</i>
+                        <i>Technologies and Frameworks: Rails, Bootstrap</i>
                     </span>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Projects = () => {
                 </div>
                 <div class="extra content">
                   <span class="left floated">
-                    <i>Foundation: Sinatra, CSS, Bootstrap</i>
+                    <i>Technologies and Frameworks: Sinatra, CSS, Bootstrap</i>
                   </span>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Projects = () => {
                   </div>
                   <div class="extra content">
                     <span class="left floated">
-                      <i>Foundation: Rails, JavaScript, jQuery</i>
+                      <i>Technologies and Frameworks: Rails, JavaScript, jQuery</i>
                     </span>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const Projects = () => {
                 </div>
                 <div class="extra content">
                   <span class="left floated">
-                    <i>Foundation: Ruby, Nokogiri  </i>
+                    <i>Technologies and Frameworks: Ruby, Nokogiri  </i>
                   </span>
                 </div>
               </div>
