@@ -23,7 +23,7 @@ const Projects = () => {
               </div>
               <div class="extra content">
                 <span class="left floated">
-                  <i>Technologies and Frameworks: React, Redux, Rails API</i>
+                  <i>Technologies and Frameworks: React, Redux, Rails API, Semantic UI</i>
                 </span>
               </div>
             </div>
