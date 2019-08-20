@@ -41,12 +41,12 @@ const Projects = () => {
                     </div>
                     <div class="description">
                       App where user can sign up for classes at Hogwarts <br></br><br></br>
-                      <b>My Contribution:</b> Setting up models and controllers, assisted with views
+                    <b>My Contribution:</b> Setting up models and controllers, assisted with views and debugging towards completion
                     </div>
                   </div>
                   <div class="extra content">
                     <span class="left floated">
-                        <i>Technologies and Frameworks: Rails, Bootstrap</i>
+                        <i>Technologies and Frameworks: Rails, Bootstrap, CSS</i>
                     </span>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Projects = () => {
                     <a href='https://github.com/lchan217/Project-1-Goodreads' target="_blank"> Code </a>
                   </div>
                   <div class="description">
-                    App allows users to see the 2018 Goodreads Choice Awards winners along with author, title, rating, and description
+                    App allows users to see the 2018 Goodreads Choice Awards winners and their author, title, rating, and description
                   </div>
                 </div>
                 <div class="extra content">
