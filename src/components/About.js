@@ -10,7 +10,7 @@ const About = () => {
         <h2>Hi There!</h2>
         <img src="https://i.ibb.co/hBQ0hb9/20180201-153404.jpg" alt="20180201-153404" width={250} height={350}></img>
       </div><br></br>
-        <p>I am a full stack web developer, and Certified Public Accountant with five years of
+        <p>I am a full stack web developer and Certified Public Accountant with five years of
         experience in financial accounting.
         I have financial competence closing time-sensitive financial statements, and I have expertise using systems such as SAP,
         Blackline, and Hyperion Financial Management. </p>
