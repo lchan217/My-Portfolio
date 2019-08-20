@@ -24,35 +24,50 @@ const Experience = () => {
           </div>
         </div>
       </Card.Group>
-    <h2>My Experience</h2>
+    <h2><u>Languages and Frameworks</u></h2>
+      <div class="ui grid">
+        <div class="five wide column">Ruby on Rails</div>
+        <div class="five wide column">Sinatra</div>
+        <div class="five wide column">JavaScript</div>
+        <div class="five wide column">jQuery</div>
+        <div class="five wide column">ActiveRecord</div>
+        <div class="five wide column">PostgreSQL</div>
+        <div class="five wide column">SQLite</div>
+        <div class="five wide column">CSS</div>
+        <div class="five wide column">HTML</div>
+        <div class="five wide column">Semantic UI</div>
+        <div class="five wide column">Bootstrap</div>
+      </div>
+    <h2><u>My Experience</u></h2>
 
     <div><b>Mars, Incorporated</b></div>
     <i>Senior Accounting Specialist - Fixed Assets and General Accounting, February 2014 - November 2017</i>
     <ul>
-      + Led team of three when making and implementing accrual process decisions <br></br>
-      + Collaborated with five finance plant managers to meet crucial month-end close deadlines <br></br>
-      + Co-published and presented to over 90 engineers an annual course explaining the lifecycle of a Fixed Asset <br></br>
-      + Tracked CIP balance of $108 million and initiated the capitalization/project closure process as needed <br></br>
-      + Took ownership of asset subledger by timely preparing capitalizations, retirements, and cost adjustments as necessary using SAP <br></br>
-
+      <li>Led team of three when making and implementing accrual process decisions</li>
+      <li>Collaborated with five finance plant managers to meet crucial month-end close deadlines</li>
+          <li> Analyzed the general ledger and identified variances to plant managers ahead of schedule </li>
+          <li>Utilizing pivot tables, vlookups and conditional formatting in Excel, generated and distributed cost and labor reports</li>
+      <ul><li>Co-published and presented to over 90 engineers an annual course explaining the lifecycle of a Fixed Asset</li></ul>
+      <ul><li>Tracked CIP balance of $108 million and initiated the capitalization/project closure process as needed</li></ul>
+      <li>Took ownership of asset subledger by timely preparing capitalizations, retirements, and cost adjustments as necessary using SAP</li>
     </ul>
 
     <div><b>Mondelez International (Formerly Kraft Foods)</b></div>
     <i>Senior Financial Associate, June 2012- February 2014</i>
       <ul>
-        + Promoted to Senior Financial Associate in August 2013  from Financial Associate <br></br>
-        + Managed and provided accounting support for the general ledger during the month-end close for 7 plants <br></br>
-        + Created quarterly forecasts and managed the Field Operations Incentive Plan for 17 plants using a detailed Excel spreadsheet <br></br>
-        + Performed extensive review of 170 account reconciliations, provided feedback to reconciliation preparer, and presented findings to the Balance Sheet Review team <br></br>
-        + Maintained the invoice/purchase order system and reconciled approximately seventy accounts for various plant locations every month<br></br>
+        <li>Promoted to Senior Financial Associate in August 2013 from Financial Associate </li>
+        <li>Managed and provided accounting support for the general ledger during the month-end close for 7 plants</li>
+        <li>Created quarterly forecasts and managed the Field Operations Incentive Plan for 17 plants using a detailed Excel spreadsheet</li>
+        <li>Performed extensive review of 170 account reconciliations, provided feedback to reconciliation preparer, and presented findings to the Balance Sheet Review team</li>
+        <li>Maintained the invoice/purchase order system and reconciled approximately seventy accounts every month</li>
       </ul>
 
     <div><b>Graduate of University of Dayton 2012</b></div>
       <ul>
-        <li>Bachelor of Science in Accounting</li>
-        <li>Bachelor of Music in Performance</li>
+          <li>Bachelor of Science in Accounting </li>
+          <li>Bachelor of Music in Performance </li>
       </ul>
-      <a href="https://drive.google.com/open?id=12KJBLqS9EdWb8wzMOpib3sJZsmk-5UZK" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
+      <a href="https://drive.google.com/file/d/1FDXywzm8cihh5qTSLjAnypCtiuFeI6MW/view?usp=sharing" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
     </div>
   );
 };
