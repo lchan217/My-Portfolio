@@ -15,7 +15,7 @@ const About = () => {
         I have financial competence closing time-sensitive financial statements, and I have expertise using systems such as SAP,
         Blackline, and Hyperion Financial Management. </p>
 
-        <p>In November 2017, I quit my job to travel Southeast Asia with my friend and solo travel in Europe. When I came back to
+      <p>In November 2017, I took a gap year to travel Southeast Asia with my friend and solo travel in Europe. When I came back to
         the states, a friend who had done a coding bootcamp thought it would be a great fit for me. I did a few sample courses
         and really liked the way of thinking, plus coding was one of the top jobs for remote work! One day, I hope to travel
         while working. </p>
