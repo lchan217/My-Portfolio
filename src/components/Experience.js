@@ -67,7 +67,7 @@ const Experience = () => {
           <li>Bachelor of Science in Accounting </li>
           <li>Bachelor of Music in Performance </li>
       </ul>
-      <a href="https://drive.google.com/file/d/0Bz9njKJPezEgaTROWXNnZmdTOVVKU0ZiaGVpMmUzSzRfRjlN/view?usp=sharing" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
+      <a href="https://drive.google.com/file/d/17GaHV7Ajr5GMlFF3uOvgTqPqiY4G1oox/view?usp=sharing" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
     </div>
   );
 };
