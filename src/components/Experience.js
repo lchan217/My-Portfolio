@@ -24,6 +24,8 @@ const Experience = () => {
           </div>
         </div>
       </Card.Group>
+      <br/><br/>
+      <a href="https://drive.google.com/file/d/1tes-1ZCT_3bhnw_lInMTYtW7_GSunVtK/view?usp=sharing" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
     <h2><u>Languages and Frameworks</u></h2>
       <div class="ui grid">
         <div class="five wide column">Ruby on Rails</div>
@@ -67,7 +69,6 @@ const Experience = () => {
           <li>Bachelor of Science in Accounting </li>
           <li>Bachelor of Music in Performance </li>
       </ul>
-      <a href="https://drive.google.com/file/d/1tes-1ZCT_3bhnw_lInMTYtW7_GSunVtK/view?usp=sharing" target="_blank"><i class="download icon"></i>VIEW FULL RESUME</a>
     </div>
   );
 };
