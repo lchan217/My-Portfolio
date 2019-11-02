@@ -20,6 +20,7 @@ class BlogContainer extends Component {
     return (
       <div className="blog-feed">
         <h1 style={{textAlign:"center"}}>My Blogs</h1>
+        <br/>
         {this.state.blogs.map((blog, index) => <Blogs key={index} {...blog}/>)}
       </div>
     );
