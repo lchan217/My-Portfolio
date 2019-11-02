@@ -6,6 +6,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import OtherInterests from './components/OtherInterests'
+import Blog from './components/Blog'
 import Contact from './components/Contact'
 
   // <Route exact path='/interests'  component={OtherInterests} />
@@ -19,7 +20,7 @@ function App() {
           <Route exact path='/'  component={About} />
           <Route exact path='/projects'  component={Projects} />
           <Route exact path='/experience'  component={Experience} />
-
+          <Route exact path='/blog'  component={Blog} />
           <Route exact path='/contact'  component={Contact} />
         </div>
       </div>
