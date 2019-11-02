@@ -1,11 +1,39 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Card } from 'semantic-ui-react'
 
-const Projects = () => {
+class Projects extends Component {
+  constructor(props) {
+    super()
+    this.state = {
+        width: window.innerWidth
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  }
+
+  render(){
+
+  let isMobile
+  const width = this.state.width
+  width <= 1000 ? isMobile = true : isMobile = false
+
+  let itemsPerRow
+  isMobile? itemsPerRow = 1 : itemsPerRow = 2
+
   return (
     <div className="projects">
       <h1 style={{textAlign:"center"}}>My Projects</h1>
-        <Card.Group itemsPerRow={2}>
+        <Card.Group itemsPerRow={itemsPerRow}>
           <div class="card">
               <div class="image">
                 <img src="https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
@@ -52,7 +80,7 @@ const Projects = () => {
                 </div>
           </Card.Group>
 
-          <Card.Group itemsPerRow={2}>
+          <Card.Group itemsPerRow={itemsPerRow}>
             <div class="card">
                 <div class="image">
                   <img src="https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
@@ -97,7 +125,7 @@ const Projects = () => {
                   </div>
                 </div>
             </Card.Group>
-          <Card.Group itemsPerRow={2}>
+          <Card.Group itemsPerRow={itemsPerRow}>
             <div class="card">
                 <div class="image">
                   <img src="https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"></img>
@@ -122,5 +150,6 @@ const Projects = () => {
     </div>
   );
 };
+}
 
 export default Projects;
