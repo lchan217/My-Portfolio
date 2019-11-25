@@ -9,7 +9,7 @@ const NavBar = () => {
       <div class="ui five item menu">
         <div className="item"><Link to='/'>About Me</Link></div>
         <div className="item"><Link to='/projects'>Projects</Link></div>
-        <div className="item"><Link to='/experience'>Experience</Link></div>
+        <div className="item"><Link to='/experience'>Other Experience</Link></div>
         <div className="item"><Link to='/blog'>Blog</Link></div>
         <div className="item"><Link to='/contact'>Contact</Link></div>
       </div>
