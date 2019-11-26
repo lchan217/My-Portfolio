@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card } from 'semantic-ui-react'
+import womenCodigo from "./womenCodigo.jpg"
 
 class Projects extends Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class Projects extends Component {
 
         <div class="card">
             <div class="image">
-              <img src="https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
+              <img style={{width:'100%', height: 250}} src={womenCodigo}></img>
             </div>
             <div class="content">
               <div class="header"><i>Current Project: </i>Codigo</div>
