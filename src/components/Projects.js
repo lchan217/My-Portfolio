@@ -34,6 +34,28 @@ class Projects extends Component {
     <div className="projects">
       <h1 style={{textAlign:"center"}}>My Projects</h1>
         <Card.Group itemsPerRow={itemsPerRow}>
+
+        <div class="card">
+              <div class="image">
+                <img src="https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
+              </div>
+              <div class="content">
+                <div class="header">Animals Game</div>
+                <div class="meta">
+                  <a href='https://animals-game.herokuapp.com/' target="_blank">Play My Game </a>|
+                  <a href='https://www.youtube.com/watch?v=u_D9pj6gzo8'  target="_blank"> Demo </a> |
+                  <a href='https://github.com/lchan217/Project-5-Animals-Game' target="_blank"> Code </a><br></br>
+                </div>
+                <div class="description">
+                  App where users save endangered animals, nurse them back to health, and release into the wild
+                </div>
+              </div>
+              <div class="extra content">
+                <span class="left floated">
+                  <i>Technologies and Frameworks: React, Redux, Rails API, Semantic UI</i>
+                </span>
+              </div>
+            </div>
           <div class="card">
               <div class="image">
                 <img src="https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
@@ -56,7 +78,11 @@ class Projects extends Component {
               </div>
             </div>
 
-              <div class="card">
+              
+          </Card.Group>
+
+          <Card.Group itemsPerRow={itemsPerRow}>
+          <div class="card">
                   <div class="image">
                     <img src="https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70"></img>
                   </div>
@@ -78,9 +104,7 @@ class Projects extends Component {
                     </span>
                   </div>
                 </div>
-          </Card.Group>
 
-          <Card.Group itemsPerRow={itemsPerRow}>
             <div class="card">
                 <div class="image">
                   <img src="https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"></img>
@@ -103,29 +127,32 @@ class Projects extends Component {
                 </div>
               </div>
 
+             
+            </Card.Group>
+
+            <Card.Group itemsPerRow={itemsPerRow}>
               <div class="card">
-                  <div class="image">
-                    <img src="https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg"></img>
+                <div class="image">
+                  <img src="https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg"></img>
+                </div>
+                <div class="content">
+                  <div class="header">My Restaurants</div>
+                  <div class="meta">
+                    <a href='https://restaurants1000.herokuapp.com/' target="_blank"> Log Some Restaurants </a>|
+                    <a href='https://www.youtube.com/watch?v=4wTQYPsNjJ8' target="_blank"> Demo </a> |
+                    <a href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final' target="_blank"> Code </a>
                   </div>
-                  <div class="content">
-                    <div class="header">My Restaurants</div>
-                    <div class="meta">
-                      <a href='https://restaurants1000.herokuapp.com/' target="_blank"> Log Some Restaurants </a>|
-                      <a href='https://www.youtube.com/watch?v=4wTQYPsNjJ8' target="_blank"> Demo </a> |
-                      <a href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final' target="_blank"> Code </a>
-                    </div>
-                    <div class="description">
-                      App that allows users to enter information about restaurants and their menu items
-                    </div>
-                  </div>
-                  <div class="extra content">
-                    <span class="left floated">
-                      <i>Technologies and Frameworks: Rails, JavaScript, jQuery</i>
-                    </span>
+                  <div class="description">
+                    App that allows users to enter information about restaurants and their menu items
                   </div>
                 </div>
-            </Card.Group>
-          <Card.Group itemsPerRow={itemsPerRow}>
+                <div class="extra content">
+                   <span class="left floated">
+                    <i>Technologies and Frameworks: Rails, JavaScript, jQuery</i>
+                   </span>
+                </div>
+              </div>
+
             <div class="card">
                 <div class="image">
                   <img src="https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png"></img>
