@@ -43,12 +43,12 @@ class Projects extends Component {
             </div>
             <div class="content">
               <div class="header">
-                <i>Current Project: </i>Codigo
+                <i style={{ color: "blue" }}>Currently Working On: </i>Codigo
               </div>
               <div class="meta">
                 <a href="https://codigo-ec.firebaseapp.com/" target="_blank">
                   {" "}
-                  Current Site
+                  Website
                 </a>
                 |
                 <a
@@ -61,8 +61,8 @@ class Projects extends Component {
                 <br></br>
               </div>
               <div class="description">
-                Group collaboration project working with a team in Ecuador. We
-                are assisting them with creating their website.
+                Group collaboration project working with a team in Ecuador to
+                help them with creating their website.
                 <br />
                 <br />
                 <b>My Contribution:</b> Set up the Donate, Board of Directors,
