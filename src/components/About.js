@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="aboutMe">
+    <div className='aboutMe'>
       <div style={{ textAlign: "center" }}>
         <h2>Hi There!</h2>
       </div>
@@ -34,34 +34,29 @@ const About = () => {
       </p>
       <div style={{ textAlign: "center" }}>
         <img
-          src="https://i.ibb.co/zsd76cr/20190916-121928-2.jpg"
-          alt="20180201-153404"
+          src='https://i.ibb.co/zsd76cr/20190916-121928-2.jpg'
+          alt='20180201-153404'
           width={400}
           height={550}
         ></img>
       </div>{" "}
       <br />
-      <p>
-        I look forward to expanding my knowledge of languages, contributing my
-        persistent work ethic, and changing my career to something where I am
-        learning something new every day.
-      </p>
       <p></p>
-      <div className="contactInfo" style={{ textAlign: "center" }}>
-        <a href="mailto:lchan217@gmail.com">
-          <i class="envelope large outline icon"></i>
+      <div className='contactInfo' style={{ textAlign: "center" }}>
+        <a href='mailto:lchan217@gmail.com'>
+          <i class='envelope large outline icon'></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/elizabethchan1234/"
-          target="_blank"
+          href='https://www.linkedin.com/in/elizabethchan1234/'
+          target='_blank'
         >
-          <i class="large linkedin icon"></i>
+          <i class='large linkedin icon'></i>
         </a>
-        <a href="https://github.com/lchan217" target="_blank">
-          <i class="large github icon"></i>
+        <a href='https://github.com/lchan217' target='_blank'>
+          <i class='large github icon'></i>
         </a>
-        <a href="https://medium.com/@lchan217" target="_blank">
-          <i class="edit outline icon"></i>
+        <a href='https://medium.com/@lchan217' target='_blank'>
+          <i class='edit outline icon'></i>
         </a>
       </div>
     </div>
