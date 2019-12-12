@@ -29,7 +29,7 @@ const About = () => {
       <p>
         In my spare time, you can find me reading a book, listening to a
         podcast, or trying a new type of cheese. The picture below is from when
-        I visited the world's first cheese convey belt in London. I was in
+        I visited the world's first cheese conveyor belt in London. I was in
         heaven!
       </p>
       <div style={{ textAlign: "center" }}>
