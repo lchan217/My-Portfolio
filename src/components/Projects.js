@@ -62,7 +62,7 @@ class Projects extends Component {
               </div>
               <div class='description'>
                 Group collaboration project working with a team in Ecuador to
-                help them with creating their website.
+                help them with creating their website
                 <br />
                 <br />
                 <b>My Contribution:</b> Set up the Donate, Board of Directors,
