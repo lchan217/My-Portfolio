@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Blogs from "./Blogs";
+import { Card } from "semantic-ui-react";
 
 class BlogContainer extends Component {
   state = {
@@ -27,9 +28,11 @@ class BlogContainer extends Component {
     } else {
       data = (
         <div>
-          {this.state.blogs.map((blog, index) => (
-            <Blogs key={index} {...blog} />
-          ))}
+          <Card.Group itemsPerRow={2}>
+            {this.state.blogs.map((blog, index) => (
+              <Blogs key={index} {...blog} />
+            ))}
+          </Card.Group>
         </div>
       );
     }
