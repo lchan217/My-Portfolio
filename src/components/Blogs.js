@@ -1,28 +1,29 @@
 import React from "react";
 import Moment from "react-moment";
+import { Card, Image } from "semantic-ui-react";
 
 const Blogs = ({ title, content, thumbnail, guid, link, pubDate }) => {
   return (
-    <div className="blog-feed">
-      <div class="ui segment">
-        <div class="ui hidden divider">
-          <h3>{title}</h3>
-        </div>
-        <br />
-        <div>
-          <i>
-            Published On <Moment format="DD/MM/YYYY">{pubDate}</Moment>
-          </i>
-        </div>
-        <p>
-          {content.substr(0, 300).replace(/<[^>]*>?/gm, "")}... <br />
+    <div className='blog-feed'>
+      <Card.Group itemsPerRow={2}>
+        <Card>
+          <Image src={thumbnail} wrapped ui={false} />
+          <Card.Header>{title}</Card.Header>
           <br />
-          <a href={guid} target="_blank">
-            {" "}
-            Continue Reading >>{" "}
-          </a>
-        </p>
-      </div>
+          <Card.Meta>
+            Published On <Moment format='DD/MM/YYYY'>{pubDate}</Moment>
+          </Card.Meta>
+          <br />
+          <Card.Description>
+            {content.substr(0, 300).replace(/<[^>]*>?/gm, "")}... <br />
+            <br />
+            <a href={guid} target='_blank'>
+              {" "}
+              Continue Reading >>{" "}
+            </a>
+          </Card.Description>
+        </Card>
+      </Card.Group>
     </div>
   );
 };

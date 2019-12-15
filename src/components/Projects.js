@@ -66,8 +66,8 @@ class Projects extends Component {
                 <br />
                 <br />
                 <b>My Contribution:</b> Set up the Donate, Board of Directors,
-                and Minor Partners pages; helped with styling using Semantic UI
-                and CSS
+                and Minor Partners pages; assisted with styling using Semantic
+                UI and CSS
               </div>
             </div>
             <div class='extra content'>
