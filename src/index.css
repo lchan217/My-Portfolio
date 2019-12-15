@@ -39,3 +39,7 @@ code {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.item a {
+  color: black;
+}
