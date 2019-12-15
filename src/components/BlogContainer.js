@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Blogs from "./Blogs";
+import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
 
 class BlogContainer extends Component {
   state = {
@@ -23,7 +24,13 @@ class BlogContainer extends Component {
   render() {
     let data;
     if (this.state.isLoading) {
-      data = "Loading...";
+      data =         <Segment>
+      <Dimmer active inverted>
+        <Loader inverted>Loading</Loader>
+      </Dimmer>
+
+      <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+    </Segment>
     } else {
       data = (
         <div>
