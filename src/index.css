@@ -19,9 +19,14 @@ code {
   max-width: 1000px;
   padding: 4%;
   font-size: 20px;
-  border-style: solid;
-  border-color: black;
+  /* border-style: solid;
+  border-color: black; */
   /* border-color: rgb(81, 132, 192); */
+}
+
+#wrapper:hover {
+  opacity: 0.95;
+  background-color: rgb(240, 240, 240);
 }
 
 .background {

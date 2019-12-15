@@ -5,10 +5,7 @@ const Contact = () => {
     <div className='contactInfo' style={{ textAlign: "center" }}>
       <h1> Get In Touch </h1>
       Feel free to reach out with any questions. I am always happy to connect!{" "}
-      <br></br>
-      <br></br>
-      <img src='https://i.ibb.co/nkydFFD/20180423-141220.jpg' /> <br />
-      <br />
+      <br /> <br />
       <a href='mailto:lchan217@gmail.com'>
         <i class='envelope outline icon'></i>
       </a>
@@ -21,6 +18,8 @@ const Contact = () => {
       <a href='https://medium.com/@lchan217' target='_blank'>
         <i class='medium icon'></i>
       </a>
+      <br /> <br />
+      <img src='https://i.ibb.co/nkydFFD/20180423-141220.jpg' /> <br />
     </div>
   );
 };
