@@ -4,7 +4,7 @@ import Moment from "react-moment";
 const Blogs = ({ title, content, thumbnail, guid, link, pubDate }) => {
   return (
     <div className='blog-feed'>
-      <div class='ui segment'>
+      <div class='ui segment' style={{ backgroundColor: "#FFCCFF" }}>
         <div class='ui hidden divider'>
           <h3>{title}</h3>
         </div>
