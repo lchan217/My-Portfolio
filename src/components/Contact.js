@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
+import ContactInfo from "./ContactInfo";
 
 class Contact extends Component {
   constructor(props) {
@@ -40,21 +40,7 @@ class Contact extends Component {
         <h1> Get In Touch </h1>
         Feel free to reach out with any questions. I am always happy to connect!{" "}
         <br /> <br />
-        <a href='mailto:lchan217@gmail.com'>
-          <i class='envelope outline icon'></i>
-        </a>
-        <a
-          href='https://www.linkedin.com/in/elizabethchan1234/'
-          target='_blank'
-        >
-          <i class='large linkedin icon'></i>
-        </a>
-        <a href='https://github.com/lchan217' target='_blank'>
-          <i class='large github icon'></i>
-        </a>
-        <a href='https://medium.com/@lchan217' target='_blank'>
-          <i class='medium icon'></i>
-        </a>
+        <ContactInfo />
         <br /> <br />
         <img
           width={picWidth}

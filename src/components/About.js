@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ContactInfo from "./ContactInfo";
 //
 // <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
 //   advice and hear recommendations!</p>
@@ -75,24 +76,7 @@ class About extends Component {
           ></img>
         </div>{" "}
         <br />
-        <p></p>
-        <div className='contactInfo center'>
-          <a href='mailto:lchan217@gmail.com'>
-            <i class='envelope large outline icon'></i>
-          </a>
-          <a
-            href='https://www.linkedin.com/in/elizabethchan1234/'
-            target='_blank'
-          >
-            <i class='large linkedin icon'></i>
-          </a>
-          <a href='https://github.com/lchan217' target='_blank'>
-            <i class='large github icon'></i>
-          </a>
-          <a href='https://medium.com/@lchan217' target='_blank'>
-            <i class='edit outline icon'></i>
-          </a>
-        </div>
+        <ContactInfo />
       </div>
     );
   }
