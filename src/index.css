@@ -22,6 +22,7 @@ code {
   /* border-style: solid;
   border-color: black; */
   /* border-color: rgb(81, 132, 192); */
+  border-radius: 25px;
 }
 
 #wrapper:hover {
@@ -42,4 +43,22 @@ code {
 
 .item a {
   color: black;
+}
+
+.blog-cards-group {
+  margin: 10px;
+}
+
+.blog-card {
+  text-align: center;
+  height: 700px;
+}
+
+.header {
+  margin: 20px;
+}
+
+.description {
+  margin: 20px;
+  text-align: justify;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Blogs from "./Blogs";
-import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
+import { Dimmer, Loader, Image, Segment, Card } from "semantic-ui-react";
 
 class BlogContainer extends Component {
   state = {
@@ -24,25 +24,27 @@ class BlogContainer extends Component {
   render() {
     let data;
     if (this.state.isLoading) {
-      data =         <Segment>
-      <Dimmer active inverted>
-        <Loader inverted>Loading</Loader>
-      </Dimmer>
+      data = (
+        <Segment>
+          <Dimmer active inverted>
+            <Loader inverted>Loading</Loader>
+          </Dimmer>
 
-      <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-    </Segment>
+          <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
+        </Segment>
+      );
     } else {
       data = (
-        <div>
+        <Card.Group itemsPerRow={3}>
           {this.state.blogs.map((blog, index) => (
             <Blogs key={index} {...blog} />
           ))}
-        </div>
+        </Card.Group>
       );
     }
 
     return (
-      <div className='blog-feed'>
+      <div className='blogs'>
         <h1 style={{ textAlign: "center" }}>My Blogs</h1>
         <br />
         {data}
