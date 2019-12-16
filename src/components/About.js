@@ -58,7 +58,7 @@ class About extends Component {
           friend who had done a coding bootcamp thought it would be a great fit
           for me. I did a few sample courses and really liked the way of
           thinking, plus coding was one of the top jobs for remote work! One
-          day, I hope to travel while working or live in a foreign country.{" "}
+          day, I hope to travel while working or living in a foreign country.{" "}
         </p>
         <p>
           In my spare time, you can find me reading a book, listening to a
