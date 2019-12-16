@@ -55,5 +55,5 @@ code {
 
 .blog-card div.description {
   margin: 20px;
-  text-align: justify;
+  text-align: left;
 }
