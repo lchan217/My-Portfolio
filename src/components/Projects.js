@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card } from "semantic-ui-react";
+import { Card, Icon } from "semantic-ui-react";
 import womenCodigo from "./womenCodigo.jpg";
 
 class Projects extends Component {
@@ -56,7 +56,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
                 <br></br>
               </div>
@@ -66,8 +66,8 @@ class Projects extends Component {
                 <br />
                 <br />
                 <b>My Contribution:</b> Set up the Donate, Board of Directors,
-                and Minor Partners pages; helped with styling using Semantic UI
-                and CSS
+                and Minor Partners pages; assisted with styling using Semantic
+                UI and CSS
               </div>
             </div>
             <div class='extra content'>
@@ -91,7 +91,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Log Some Restaurants{" "}
+                  Log Restaurants
                 </a>
                 |
                 <a
@@ -99,15 +99,15 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Demo{" "}
-                </a>{" "}
+                  Demo <Icon name='youtube square' />
+                </a>
                 |
                 <a
                   href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final'
                   target='_blank'
                 >
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
               </div>
               <div class='description'>
@@ -141,12 +141,12 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Demo{" "}
+                  Demo <Icon name='youtube square' />
                 </a>{" "}
                 |
                 <a href='https://github.com/lchan217/Hog-Iron' target='_blank'>
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
               </div>
               <div class='description'>
@@ -171,7 +171,7 @@ class Projects extends Component {
               <div class='header'>Animals Game</div>
               <div class='meta'>
                 <a href='https://animals-game.herokuapp.com/' target='_blank'>
-                  Play My Game{" "}
+                  Play My Game
                 </a>
                 |
                 <a
@@ -179,15 +179,15 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Demo{" "}
-                </a>{" "}
+                  Demo <Icon name='youtube square' />
+                </a>
                 |
                 <a
                   href='https://github.com/lchan217/Project-5-Animals-Game'
                   target='_blank'
                 >
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
                 <br></br>
               </div>
@@ -220,7 +220,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Track Those Destinations{" "}
+                  Track Destinations{" "}
                 </a>
                 |
                 <a
@@ -228,7 +228,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Demo{" "}
+                  Demo <Icon name='youtube square' />
                 </a>{" "}
                 |
                 <a
@@ -236,7 +236,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
               </div>
               <div class='description'>
@@ -263,7 +263,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Demo{" "}
+                  Demo <Icon name='youtube square' />
                 </a>{" "}
                 |
                 <a
@@ -271,7 +271,7 @@ class Projects extends Component {
                   target='_blank'
                 >
                   {" "}
-                  Code{" "}
+                  GitHub <Icon name='github square' />{" "}
                 </a>
               </div>
               <div class='description'>

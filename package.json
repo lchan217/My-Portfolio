@@ -7,10 +7,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-moment": "^0.9.6",
+    "react-responsive-carousel": "^3.1.51",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-semantic-ui": "^0.2.0",
+    "react-slick": "^0.25.2",
     "semantic-ui": "^2.4.2",
     "semantic-ui-react": "^0.87.3"
   },
