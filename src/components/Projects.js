@@ -32,7 +32,7 @@ class Projects extends Component {
 
     return (
       <div className='projects'>
-        <h1 style={{ textAlign: "center" }}>My Projects</h1>
+        <h1 className='center'>My Projects</h1>
         <Card.Group itemsPerRow={itemsPerRow}>
           <div class='card'>
             <div class='image'>

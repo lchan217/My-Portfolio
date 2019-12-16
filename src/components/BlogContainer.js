@@ -45,7 +45,7 @@ class BlogContainer extends Component {
 
     return (
       <div className='blogs'>
-        <h1 style={{ textAlign: "center" }}>My Blogs</h1>
+        <h1 className='center'>My Blogs</h1>
         <br />
         {data}
       </div>

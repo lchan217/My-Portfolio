@@ -40,7 +40,7 @@ class About extends Component {
 
     return (
       <div className='aboutMe'>
-        <div style={{ textAlign: "center" }}>
+        <div className='center'>
           <h2>Hi There!</h2>
         </div>
         <br></br>
@@ -66,7 +66,7 @@ class About extends Component {
           when I visited the world's first cheese conveyor belt in London. I was
           in heaven!
         </p>
-        <div style={{ textAlign: "center" }}>
+        <div className='center'>
           <img
             src='https://i.ibb.co/zsd76cr/20190916-121928-2.jpg'
             alt='20180201-153404'
@@ -76,7 +76,7 @@ class About extends Component {
         </div>{" "}
         <br />
         <p></p>
-        <div className='contactInfo' style={{ textAlign: "center" }}>
+        <div className='contactInfo center'>
           <a href='mailto:lchan217@gmail.com'>
             <i class='envelope large outline icon'></i>
           </a>
