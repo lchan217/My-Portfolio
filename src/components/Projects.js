@@ -39,7 +39,7 @@ class Projects extends Component {
           <div class='card'>
             <div class='image'>
               <img
-                style={{ width: "100%", height: { picHeight } }}
+                style={{ width: "100%", height: { picHeightg } }}
                 src={womenCodigo}
               ></img>
             </div>
