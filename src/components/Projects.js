@@ -29,6 +29,8 @@ class Projects extends Component {
 
     let itemsPerRow;
     isMobile ? (itemsPerRow = 1) : (itemsPerRow = 2);
+    let picHeight;
+    isMobile ? (picHeight = 150) : (picHeight = 250);
 
     return (
       <div className='projects'>
@@ -37,7 +39,7 @@ class Projects extends Component {
           <div class='card'>
             <div class='image'>
               <img
-                style={{ width: "100%", height: 250 }}
+                style={{ width: "100%", height: { picHeight } }}
                 src={womenCodigo}
               ></img>
             </div>
