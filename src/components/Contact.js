@@ -35,6 +35,7 @@ class Contact extends Component {
       picWidth = 660;
       picHeight = 500;
     }
+
     return (
       <div className='contact-page center'>
         <h1> Get In Touch </h1>

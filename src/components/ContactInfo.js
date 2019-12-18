@@ -13,7 +13,7 @@ const ContactInfo = () => {
         <i class='large github icon'></i>
       </a>
       <a href='https://medium.com/@lchan217' target='_blank'>
-        <i class='edit outline icon'></i>
+        <i class='large medium icon'></i>
       </a>
     </div>
   );
