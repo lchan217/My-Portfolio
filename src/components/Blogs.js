@@ -10,7 +10,7 @@ const Blogs = ({ title, content, thumbnail, guid, link, pubDate }) => {
         <Image src={thumbnail} />
         <br /> <br />
         <Card.Meta>
-          Published On <Moment format='DD/MM/YYYY'>{pubDate}</Moment>
+          Published on <Moment format='YYYY-MM-DD'>{pubDate}</Moment>
         </Card.Meta>{" "}
         <br />
         <Card.Description>
