@@ -52,7 +52,7 @@ class Experience extends Component {
         <br />
         <br />
         <a
-          href='https://drive.google.com/file/d/1lAC-34PrL79qiQU-1pVWatvm8LiGUp-u/view?usp=sharing'
+          href='https://drive.google.com/file/d/1IVrecKvCZIiAYMBLgmAyyBfdXttju83h/view?usp=sharing'
           target='_blank'
         >
           <i class='download icon'></i>VIEW FULL RESUME
@@ -118,8 +118,8 @@ class Experience extends Component {
         <i>Senior Financial Associate, June 2012- February 2014</i>
         <ul>
           <li>
-            Managed and provided accounting support and reconciled accounts
-            during the month-end close
+            Managed general ledger and provided accounting support and
+            reconciled accounts during the month-end close
           </li>
           <li>
             Performed extensive review of account reconciliations, provided
