@@ -48,7 +48,10 @@ class Projects extends Component {
                 <i style={{ color: "blue" }}>Currently Working On: </i>Codigo
               </div>
               <div class='meta'>
-                <a href='https://codigo-ec.firebaseapp.com/' target='_blank'>
+                <a
+                  href='https://codigo-ecuador.firebaseapp.com/'
+                  target='_blank'
+                >
                   {" "}
                   Website
                 </a>
