@@ -24,7 +24,7 @@ const About = () => {
       <p>
         I am a Full Stack Web Developer and Certified Public Accountant with
         five years of experience in financial accounting. I recently graduated
-        from Flatiron School’s Full Stack Software Engineering Program and I’m
+        from Flatiron School’s Full Stack Software Engineering Program, and I’m
         excited to begin working in a country outside of the United States!
         Attention to detail and ability to think logically in all areas of life
         have made learning Ruby on Rails, JavaScript, and React a strength of
@@ -33,22 +33,21 @@ const About = () => {
       <p>
         Prior to Flatiron School, I graduated from the University of Dayton with
         degrees in Accounting and Music Performance, then moved back to Chicago
-        to work in corporate accounting and pass the Certified Public Accounting
-        Exam. I have financial competence closing time-sensitive financial
-        statements, and I have expertise using systems such as SAP, Blackline,
-        and Hyperion Financial Management. During this time, I worked in a
-        shared service center, appeasing customer needs and proactively
-        providing them data before they realized they needed it.
+        to work in corporate accounting. As a former CPA, I have financial
+        competence closing time-sensitive financial statements, and I have
+        expertise using systems such as SAP, Blackline, and Hyperion Financial
+        Management. During this time, I worked in a shared service center,
+        appeasing customer needs and proactively providing them data before they
+        realized they needed it.
       </p>
       <p>
         In November 2017, I took a gap year to travel Southeast Asia and some of
         Europe. When I came back to the states, I talked with a friend who had
         completed a coding bootcamp and he thought it would be a great fit for
-        me. I enjoyed the sample lessons and liked how passing the tests and
-        immediately getting the desired output in the browser naturally clicked
+        me. When working through sample courses, I liked the satisfaction of
+        passing the tests and how getting the desired output naturally clicked
         for me. My brain is meant for coding because I am able to break down a
-        big process in detail and follow the flow to pinpoint where a bug may
-        lie.
+        big process in detail, follow the flow, and fix the bug independently.
       </p>
       <p>
         I look forward to expanding my knowledge of languages, contributing my
