@@ -3,11 +3,11 @@ import { Card, Image, Icon } from "semantic-ui-react";
 import "./ProjectCard.css";
 
 const ProjectCard = ({
-  project: { image, title, text, pagelink, codelink, footer }
+  project: { image, title, text, pagelink, codelink, footer, color }
 }) => {
   return (
     <div>
-      <Card>
+      <Card color={`${color}`}>
         <Image src={`${image}`} />
         <Card.Content>
           <Card.Header>{title}</Card.Header>

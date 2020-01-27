@@ -16,7 +16,8 @@ const MiniProjectss = () => (
       >
         frontend mentor challenges
       </a>
-      . Any feedback is welcomed. Enjoy!
+      . Red cards are from solo projects and blue cards are from collaboration
+      projects. Any feedback is welcomed. Enjoy!
     </p>
     <br />
     <Card.Group>

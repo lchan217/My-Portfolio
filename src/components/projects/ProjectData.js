@@ -5,7 +5,8 @@ const starwars = {
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters",
   pagelink: "https://star-wars-tech-challenge.netlify.com/",
   codelink: "https://github.com/lchan217/star-wars-api",
-  footer: "Technologies and Frameworks: CSS and JavaScript"
+  footer: "Technologies and Frameworks: CSS and JavaScript",
+  color: "red"
 };
 
 const weather = {
@@ -16,7 +17,8 @@ const weather = {
   pagelink: "https://weather-tech-challenge.netlify.com/",
   codelink: "https://github.com/lchan217/weather-app",
   footer:
-    "Technologies and Frameworks: React, Redux, CSS, JavaScript, Semantic UI"
+    "Technologies and Frameworks: React, Redux, CSS, JavaScript, Semantic UI",
+  color: "red"
 };
 
 const singleColumn = {
@@ -26,7 +28,8 @@ const singleColumn = {
     "Webpage that shows a landing page for a future company with email validation",
   pagelink: "https://coming-soon-page-example.netlify.com/",
   codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
-  footer: "Technologies and Frameworks: CSS and JavaScript"
+  footer: "Technologies and Frameworks: CSS and JavaScript",
+  color: "blue"
 };
 
 export const ProjectData = [starwars, weather, singleColumn];
