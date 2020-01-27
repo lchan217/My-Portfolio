@@ -1,5 +1,5 @@
 const starwars = {
-  image: "https://i.ibb.co/x1ZcqcT/Screen-Shot-2020-01-26-at-10-41-18-AM.png",
+  image: "https://i.ibb.co/2gFX53Q/Screen-Shot-2020-01-27-at-4-13-31-PM.png",
   title: "Star Wars API",
   text:
     "Web app that fetches from swapi.co and displays Star Wars movies and their characters upon click",
