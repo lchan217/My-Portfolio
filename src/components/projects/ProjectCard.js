@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Image } from "semantic-ui-react";
+import { Card, Image, Icon } from "semantic-ui-react";
 import "./ProjectCard.css";
 
 const ProjectCard = ({
@@ -11,14 +11,18 @@ const ProjectCard = ({
         <Image src={`${image}`} />
         <Card.Content>
           <Card.Header>{title}</Card.Header>
-          <Card.Meta>{text}</Card.Meta>
+          <Card.Meta>
+            <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
+              See Page <Icon name='angle double right' />
+            </a>{" "}
+            |{" "}
+            <a href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
+              See Code <Icon name='github square' />
+            </a>
+          </Card.Meta>
         </Card.Content>
-        <Button href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
-          See Page
-        </Button>{" "}
-        <Button href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
-          See Code
-        </Button>
+        <Card.Description>{text}</Card.Description>
+
         <Card.Content extra>{footer}</Card.Content>
       </Card>
     </div>
