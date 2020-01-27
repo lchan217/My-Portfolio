@@ -20,9 +20,9 @@ const ProjectCard = ({
               See Code <Icon name='github square' />
             </a>
           </Card.Meta>
-        </Card.Content>
-        <Card.Description>{text}</Card.Description>
 
+          <Card.Description>{text}</Card.Description>
+        </Card.Content>
         <Card.Content extra>{footer}</Card.Content>
       </Card>
     </div>
