@@ -1,16 +1,16 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { ProjectData } from "./ProjectData";
-import { CardDeck } from "react-bootstrap";
+import { Card } from "semantic-ui-react";
 
-const ProjectCards = () => (
+const MiniProjectss = () => (
   <div>
-    <CardDeck>
+    <Card.Group>
       {ProjectData.map((project, index) => (
         <ProjectCard project={project} key={index} />
       ))}
-    </CardDeck>
+    </Card.Group>
   </div>
 );
 
-export default ProjectCards;
+export default MiniProjectss;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Image } from "semantic-ui-react";
 import "./ProjectCard.css";
 
 const ProjectCard = ({
@@ -7,31 +7,19 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <Card style={{ width: "18rem", height: "30rem" }}>
-        <Card.Img
-          variant='top'
-          src={`${image}`}
-          style={{ height: "10rem" }}
-        ></Card.Img>
-        <Card.Body>
-          <Card.Title> {title}</Card.Title>
-          <Card.Text> {text}</Card.Text>
-          <Button
-            href={`${pagelink}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            See Page
-          </Button>{" "}
-          <Button
-            href={`${codelink}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            See Code
-          </Button>
-        </Card.Body>
-        <Card.Footer>{footer}</Card.Footer>
+      <Card>
+        <Image src={`${image}`} />
+        <Card.Content>
+          <Card.Header>{title}</Card.Header>
+          <Card.Meta>{text}</Card.Meta>
+        </Card.Content>
+        <Button href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
+          See Page
+        </Button>{" "}
+        <Button href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
+          See Code
+        </Button>
+        <Card.Content extra>{footer}</Card.Content>
       </Card>
     </div>
   );
