@@ -6,7 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import OtherInterests from "./components/OtherInterests";
-import BlogContainer from "./components/BlogContainer";
+import BlogContainer from "./components/blogs/BlogContainer";
 import Contact from "./components/Contact";
 
 // <Route exact path='/interests'  component={OtherInterests} />
