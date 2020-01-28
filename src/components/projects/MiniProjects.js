@@ -20,7 +20,7 @@ const MiniProjectss = () => (
       projects. Any feedback is welcomed. Enjoy!
     </p>
     <br />
-    <Card.Group>
+    <Card.Group itemsPerRow={3}>
       {ProjectData.map((project, index) => (
         <ProjectCard project={project} key={index} />
       ))}
