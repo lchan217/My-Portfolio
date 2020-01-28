@@ -3,7 +3,10 @@ import ProjectCard from "./ProjectCard";
 import { ProjectData } from "./ProjectData";
 import { Card } from "semantic-ui-react";
 
-const MiniProjectss = () => (
+let itemsPerRow;
+window.innerWidth > 500 ? (itemsPerRow = 3) : (itemsPerRow = 1);
+
+const MiniProjects = () => (
   <div>
     <h1 className='center'>Mini Projects</h1>
     <p>
@@ -20,7 +23,7 @@ const MiniProjectss = () => (
       projects. Any feedback is welcomed. Enjoy!
     </p>
     <br />
-    <Card.Group itemsPerRow={3}>
+    <Card.Group itemsPerRow={itemsPerRow}>
       {ProjectData.map((project, index) => (
         <ProjectCard project={project} key={index} />
       ))}
@@ -28,4 +31,4 @@ const MiniProjectss = () => (
   </div>
 );
 
-export default MiniProjectss;
+export default MiniProjects;
