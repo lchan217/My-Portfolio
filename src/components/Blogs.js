@@ -16,7 +16,7 @@ const Blogs = ({ title, content, thumbnail, guid, link, pubDate }) => {
         <Card.Description>
           {content.substr(0, 300).replace(/<[^>]*>?/gm, "")}... <br />
           <br />
-          <a href={guid} target='_blank'>
+          <a href={guid} target='_blank' rel='noopener noreferrer'>
             {" "}
             Continue Reading >>{" "}
           </a>

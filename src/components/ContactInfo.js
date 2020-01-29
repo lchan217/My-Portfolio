@@ -6,13 +6,25 @@ const ContactInfo = () => {
       <a href='mailto:lchan217@gmail.com'>
         <i class='envelope large outline icon'></i>
       </a>
-      <a href='https://www.linkedin.com/in/elizabethchan1234/' target='_blank'>
+      <a
+        href='https://www.linkedin.com/in/elizabethchan1234/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <i class='large linkedin icon'></i>
       </a>
-      <a href='https://github.com/lchan217' target='_blank'>
+      <a
+        href='https://github.com/lchan217'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <i class='large github icon'></i>
       </a>
-      <a href='https://medium.com/@lchan217' target='_blank'>
+      <a
+        href='https://medium.com/@lchan217'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <i class='large medium icon'></i>
       </a>
     </div>

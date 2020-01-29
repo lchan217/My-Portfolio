@@ -51,6 +51,7 @@ class Projects extends Component {
                 <a
                   href='https://codigo-ecuador.firebaseapp.com/'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Website
@@ -59,6 +60,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/lchan217/codigo-ecuador-web'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   GitHub <Icon name='github square' />{" "}
@@ -94,6 +96,7 @@ class Projects extends Component {
                 <a
                   href='https://restaurants1000.herokuapp.com/'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Log Restaurants
@@ -102,6 +105,7 @@ class Projects extends Component {
                 <a
                   href='https://www.youtube.com/watch?v=4wTQYPsNjJ8'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Demo <Icon name='youtube square' />
@@ -110,6 +114,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   GitHub <Icon name='github square' />{" "}
@@ -136,20 +141,29 @@ class Projects extends Component {
             <div class='content'>
               <div class='header'>Hog-Iron Collaboration Project</div>
               <div class='meta'>
-                <a href='https://hog-iron.herokuapp.com/' target='_blank'>
+                <a
+                  href='https://hog-iron.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {" "}
                   Enroll Today{" "}
                 </a>
                 |
                 <a
                   href='https://www.youtube.com/watch?v=1phiL0-Jcxk&feature=youtu.be'
-                  target='_blank'
+                  target='_blank rel="noopener noreferrer"'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Demo <Icon name='youtube square' />
                 </a>{" "}
                 |
-                <a href='https://github.com/lchan217/Hog-Iron' target='_blank'>
+                <a
+                  href='https://github.com/lchan217/Hog-Iron'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   {" "}
                   GitHub <Icon name='github square' />{" "}
                 </a>
@@ -175,13 +189,18 @@ class Projects extends Component {
             <div class='content'>
               <div class='header'>Animals Game</div>
               <div class='meta'>
-                <a href='https://animals-game.herokuapp.com/' target='_blank'>
+                <a
+                  href='https://animals-game.herokuapp.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   Play My Game
                 </a>
                 |
                 <a
                   href='https://www.youtube.com/watch?v=u_D9pj6gzo8'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Demo <Icon name='youtube square' />
@@ -190,6 +209,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/lchan217/Project-5-Animals-Game'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   GitHub <Icon name='github square' />{" "}
@@ -223,6 +243,7 @@ class Projects extends Component {
                 <a
                   href='https://destinations1000.herokuapp.com/'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Track Destinations{" "}
@@ -231,6 +252,7 @@ class Projects extends Component {
                 <a
                   href='https://www.youtube.com/watch?v=A1OR5Khzv38'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Demo <Icon name='youtube square' />
@@ -239,6 +261,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/lchan217/Project-2-Travel'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   GitHub <Icon name='github square' />{" "}
@@ -266,6 +289,7 @@ class Projects extends Component {
                 <a
                   href='https://www.youtube.com/watch?v=xOYFTuSu-vs'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   Demo <Icon name='youtube square' />
@@ -274,6 +298,7 @@ class Projects extends Component {
                 <a
                   href='https://github.com/lchan217/Project-1-Goodreads'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
                   {" "}
                   GitHub <Icon name='github square' />{" "}

@@ -54,6 +54,7 @@ class Experience extends Component {
         <a
           href='https://drive.google.com/file/d/1dl8OKg9xQG3p257BiAkWhXK45xJtGH22/view?usp=sharing'
           target='_blank'
+          rel='noopener noreferrer'
         >
           <i class='download icon'></i>VIEW FULL RESUME
         </a>
