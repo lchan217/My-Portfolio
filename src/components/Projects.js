@@ -41,6 +41,7 @@ class Projects extends Component {
               <img
                 style={{ width: "100%", height: { picHeight } }}
                 src={womenCodigo}
+                alt='latina women standing together'
               ></img>
             </div>
             <div class='content'>
@@ -88,7 +89,10 @@ class Projects extends Component {
 
           <div class='card'>
             <div class='image'>
-              <img src='https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg'></img>
+              <img
+                src='https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg'
+                alt='avocado cut in half'
+              ></img>
             </div>
             <div class='content'>
               <div class='header'>My Restaurants</div>
@@ -136,7 +140,10 @@ class Projects extends Component {
         <Card.Group itemsPerRow={itemsPerRow}>
           <div class='card'>
             <div class='image'>
-              <img src='https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70'></img>
+              <img
+                src='https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70'
+                alt='hogwarts at night'
+              ></img>
             </div>
             <div class='content'>
               <div class='header'>Hog-Iron Collaboration Project</div>
@@ -184,7 +191,10 @@ class Projects extends Component {
 
           <div class='card'>
             <div class='image'>
-              <img src='https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'></img>
+              <img
+                src='https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+                alt='wild zebra'
+              ></img>
             </div>
             <div class='content'>
               <div class='header'>Animals Game</div>
@@ -235,7 +245,10 @@ class Projects extends Component {
         <Card.Group itemsPerRow={itemsPerRow}>
           <div class='card'>
             <div class='image'>
-              <img src='https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'></img>
+              <img
+                src='https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
+                alt='blue ocean in Vietnam'
+              ></img>
             </div>
             <div class='content'>
               <div class='header'>Destination Tracker</div>
@@ -281,7 +294,10 @@ class Projects extends Component {
 
           <div class='card'>
             <div class='image'>
-              <img src='https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png'></img>
+              <img
+                src='https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png'
+                alt='goodreads logo'
+              ></img>
             </div>
             <div class='content'>
               <div class='header'>Goodreads</div>

@@ -47,6 +47,7 @@ class Contact extends Component {
           width={picWidth}
           height={picHeight}
           src='https://i.ibb.co/nkydFFD/20180423-141220.jpg'
+          alt='pic of site owner'
         />{" "}
         <br />
       </div>

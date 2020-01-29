@@ -15,7 +15,7 @@ const About = () => {
         <img
           // src='https://i.ibb.co/zsd76cr/20190916-121928-2.jpg'
           src='https://i.ibb.co/zfwHPyz/london-copy.jpg'
-          alt='20180201-153404'
+          alt='pic of site owner'
           width={125}
           height={185}
         ></img>

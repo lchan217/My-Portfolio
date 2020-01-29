@@ -33,19 +33,25 @@ class Experience extends Component {
         <Card.Group itemsPerRow={3}>
           <div class='card'>
             <div class='image'>
-              <img src='https://i.imgur.com/AVeu2yG.png'></img>
+              <img
+                src='https://i.imgur.com/AVeu2yG.png'
+                alt='university of dayton logo'
+              ></img>
             </div>
           </div>
 
           <div class='card'>
             <div class='image'>
-              <img src='https://i.imgur.com/0xJGBER.jpg'></img>
+              <img
+                src='https://i.imgur.com/0xJGBER.jpg'
+                alt='mondelez international logo'
+              ></img>
             </div>
           </div>
 
           <div class='card'>
             <div class='image'>
-              <img src='https://i.imgur.com/PFlNouF.jpg'></img>
+              <img src='https://i.imgur.com/PFlNouF.jpg' alt='mars logo'></img>
             </div>
           </div>
         </Card.Group>
