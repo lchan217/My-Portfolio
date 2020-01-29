@@ -5,10 +5,11 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import OtherInterests from "./components/OtherInterests";
 import BlogContainer from "./components/BlogContainer";
 import Contact from "./components/Contact";
 
+//not used
+// import OtherInterests from "./components/OtherInterests";
 // <Route exact path='/interests'  component={OtherInterests} />
 
 function App() {
