@@ -7,7 +7,7 @@ const ProjectCard = ({
   project: { image, title, text, pagelink, codelink, footer, color }
 }) => {
   return (
-    <Card color={`${color}`}>
+    <Card>
       <Image src={`${image}`} />
       <Card.Content>
         <Card.Header>{title}</Card.Header>

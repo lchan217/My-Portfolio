@@ -10,8 +10,8 @@ const MiniProjects = () => (
   <div>
     <h1 className='center'>Mini Projects</h1>
     <p>
-      This is a compilation of mini-projects from take-home interview tech
-      challenges and {""}
+      This is a compilation of solo and collaboration mini-projects from
+      interview tech challenges and {""}
       <a
         href='https://www.frontendmentor.io/challenges'
         rel='noopener noreferrer'
@@ -19,8 +19,7 @@ const MiniProjects = () => (
       >
         frontend mentor challenges
       </a>
-      . Red cards are from solo projects and blue cards are from collaboration
-      projects. Any feedback is welcomed. Enjoy!
+      . Any feedback is welcomed. Enjoy!
     </p>
     <br />
     <Card.Group itemsPerRow={itemsPerRow}>
