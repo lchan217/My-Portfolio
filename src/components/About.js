@@ -1,5 +1,5 @@
 import React from "react";
-import ContactInfo from "./ContactInfo";
+import ContactInfo from "./contact/ContactInfo";
 //
 // <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
 //   advice and hear recommendations!</p>
