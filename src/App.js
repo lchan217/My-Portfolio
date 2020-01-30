@@ -16,7 +16,7 @@ import Contact from "./components/contact/Contact";
 function App() {
   return (
     <Router>
-      <div class='background'>
+      <div className='background'>
         <NavBar />
         <div id='wrapper'>
           <Route exact path='/' component={About} />
