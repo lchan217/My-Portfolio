@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
-import MiniProjects from "./components/projects/MiniProjects";
+import MiniProjects from "./components/miniProjects/MiniProjects";
 import Experience from "./components/Experience";
 import OtherInterests from "./components/OtherInterests";
 import BlogContainer from "./components/blogs/BlogContainer";
