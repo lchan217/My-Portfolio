@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
-import { ProjectData } from "./ProjectData";
+import ProjectCard from "./MiniProjectCard";
+import { MiniProjectData } from "./MiniProjectData";
 import { Card } from "semantic-ui-react";
 
 let itemsPerRow;
@@ -23,7 +23,7 @@ const MiniProjects = () => (
     </p>
     <br />
     <Card.Group itemsPerRow={itemsPerRow}>
-      {ProjectData.map((project, index) => (
+      {MiniProjectData.map((project, index) => (
         <ProjectCard project={project} key={index} />
       ))}
     </Card.Group>
