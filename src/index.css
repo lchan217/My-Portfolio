@@ -13,8 +13,6 @@ code {
 }
 
 #wrapper {
-  background-color: rgb(240, 240, 240);
-  opacity: 0.8;
   margin: 16px auto;
   max-width: 1000px;
   padding: 4%;
@@ -22,18 +20,9 @@ code {
   border-radius: 25px;
 }
 
-#wrapper:hover {
-  opacity: 0.95;
-  background-color: rgb(240, 240, 240);
-}
-
 .background {
   padding: 40px;
-  /* background-image: url("https://i.ibb.co/2NF05Y8/20180125-160311.jpg"); */
-  background-image: url("https://images.unsplash.com/photo-1516484681091-7d83961805f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-  background-repeat: no repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: rgb(230, 230, 250);
 }
 
 .item a {
