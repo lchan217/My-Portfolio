@@ -6,12 +6,15 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className='navBar'>
-      <div class='ui fixed five item menu'>
+      <div class='ui fixed six item menu'>
         <div className='item'>
           <Link to='/'>About Me</Link>
         </div>
         <div className='item'>
           <Link to='/projects'>Projects</Link>
+        </div>
+        <div className='item'>
+          <Link to='/mini-projects'>Mini Projects</Link>
         </div>
         <div className='item'>
           <Link to='/experience'>Other Experience</Link>

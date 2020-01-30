@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Blogs from "./Blogs";
+import Blogs from "../blogs/Blogs";
 import { Dimmer, Loader, Image, Segment, Card } from "semantic-ui-react";
 
 class BlogContainer extends Component {

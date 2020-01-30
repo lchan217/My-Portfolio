@@ -4,8 +4,9 @@ import NavBar from "./components/NavBar";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
+import MiniProjects from "./components/miniProjects/MiniProjects";
 import Experience from "./components/Experience";
-import BlogContainer from "./components/BlogContainer";
+import BlogContainer from "./components/blogs/BlogContainer";
 import Contact from "./components/Contact";
 
 //not used
@@ -20,6 +21,7 @@ function App() {
         <div id='wrapper'>
           <Route exact path='/' component={About} />
           <Route exact path='/projects' component={Projects} />
+          <Route exact path='/mini-projects' component={MiniProjects} />
           <Route exact path='/experience' component={Experience} />
           <Route exact path='/blog' component={BlogContainer} />
           <Route exact path='/contact' component={Contact} />
