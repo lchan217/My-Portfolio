@@ -1,6 +1,8 @@
+import womenCodigo from "./womenCodigo.jpg";
+
 export const projects = [
   {
-    image: "womenCodigo",
+    image: womenCodigo,
     alt: "latina women standing together",
     header: "Codigo Ecuador",
     website: "https://codigo-ecuador.firebaseapp.com/",
@@ -10,9 +12,11 @@ export const projects = [
     description:
       "Group collaboration project working with a team in Ecuador to help them with creating their website",
     contribution:
-      "Set up the Donate, Board of Directors, and Minor Partners pages; assisted with styling using Semantic UI and CSS",
-    tech: " Technologies and Frameworks: React, Redux, Semantic UI, CSS"
+      "My Contribution: Set up the Donate, Board of Directors, and Minor Partners pages; assisted with styling using Semantic UI and CSS",
+    tech: "React, Redux, Semantic UI, CSS",
+    height: "auto"
   },
+
   {
     image:
       "https://i.ibb.co/vLN4mzs/irene-kredenets-AWMWc-R3h-QUg-unsplash.jpg",
@@ -24,7 +28,8 @@ export const projects = [
     description:
       "App that allows users to enter information about restaurants and their menu items",
     contribution: null,
-    tech: " Technologies and Frameworks: Rails, JavaScript, jQuery"
+    tech: "Rails, JavaScript, jQuery",
+    height: "16em"
   },
   {
     image:
@@ -36,8 +41,9 @@ export const projects = [
     demo: "https://www.youtube.com/watch?v=1phiL0-Jcxk&feature=youtu.be",
     description: "App where user can sign up for classes at Hogwarts",
     contribution:
-      "Setting up models and controllers, assisted with views and debugging towards completion",
-    tech: "Technologies and Frameworks: Rails, Bootstrap, CSS"
+      "My Contribution: Setting up models and controllers, assisted with views and debugging towards completion",
+    tech: "Rails, Bootstrap, CSS",
+    height: "auto"
   },
   {
     image:
@@ -50,7 +56,8 @@ export const projects = [
     description:
       "App where users save endangered animals, nurse them back to health, and release into the wild",
     contribution: null,
-    tech: "Technologies and Frameworks: React, Redux, Rails API, SemanticUI"
+    tech: "React, Redux, Rails API, Semantic UI",
+    height: "auto"
   },
   {
     image:
@@ -63,20 +70,8 @@ export const projects = [
     description:
       "App designed to log destinations user has visited and would like to visit",
     contribution: null,
-    tech: "Technologies and Frameworks: Sinatra, CSS, Bootstrap"
-  },
-  {
-    image:
-      "https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png",
-    alt: "Goodreads logo",
-    header: "Goodreads",
-    website: null,
-    github: "https://github.com/lchan217/Project-1-Goodreads",
-    demo: "https://www.youtube.com/watch?v=xOYFTuSu-vs",
-    description:
-      " App allows users to see the 2018 Goodreads Choice Awards winners and their author, title, rating, and description",
-    contribution: null,
-    tech: "Technologies and Frameworks: Ruby, Nokogiri "
+    tech: "Sinatra, CSS, Bootstrap",
+    height: "auto"
   }
 ];
 
@@ -92,5 +87,21 @@ export const projects = [
 //   description:
 //     "",
 //   contribution: "",
-//   tech: ""
+//   tech: "",
+//   height: ""
+// }
+
+// previous projects taken out
+// {
+//   image:
+//     "https://s.gr-assets.com/assets/facebook/goodreads_wide-e23f6858b6bf20dcaf8493237a214a0e.png",
+//   alt: "Goodreads logo",
+//   header: "Goodreads",
+//   website: null,
+//   github: "https://github.com/lchan217/Project-1-Goodreads",
+//   demo: "https://www.youtube.com/watch?v=xOYFTuSu-vs",
+//   description:
+//     " App allows users to see the 2018 Goodreads Choice Awards winners and their author, title, rating, and description",
+//   contribution: null,
+//   tech: "Technologies and Frameworks: Ruby, Nokogiri "
 // }
