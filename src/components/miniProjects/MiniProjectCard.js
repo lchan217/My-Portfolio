@@ -1,14 +1,14 @@
 import React from "react";
 import { Card, Image, Icon } from "semantic-ui-react";
-import "./ProjectCard.css";
+import "./MiniProjectCard.css";
 import LangIcon from "./LangIcon";
 
 const ProjectCard = ({
-  project: { image, title, text, pagelink, codelink, footer, color }
+  project: { image, title, text, pagelink, codelink, tech }
 }) => {
   return (
     <Card className='mini-proj-card'>
-      <Image src={`${image}`} />
+      <Image src={`${image}`} className='mini-proj-img' />
       <Card.Content>
         <Card.Header>{title}</Card.Header>
         <Card.Meta className='center'>
@@ -23,7 +23,7 @@ const ProjectCard = ({
         <Card.Description>{text}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <LangIcon footer={footer} />
+        <LangIcon tech={tech} />
       </Card.Content>
     </Card>
   );

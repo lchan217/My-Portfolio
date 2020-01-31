@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 
 import About from "./components/About";
-import Projects from "./components/Projects";
+import Projects from "./components/projects/Projects";
 import MiniProjects from "./components/miniProjects/MiniProjects";
 import Experience from "./components/Experience";
 import BlogContainer from "./components/blogs/BlogContainer";
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 
 //not used
 // import OtherInterests from "./components/OtherInterests";
@@ -16,7 +16,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
-      <div class='background'>
+      <div className='background'>
         <NavBar />
         <div id='wrapper'>
           <Route exact path='/' component={About} />

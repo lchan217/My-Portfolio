@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className='navBar'>
-      <div class='ui fixed six item menu'>
+      <div className='ui fixed six item menu'>
         <div className='item'>
           <Link to='/'>About Me</Link>
         </div>
