@@ -29,7 +29,7 @@ class Projects extends Component {
 
     return (
       <div className='projects'>
-        <h1 className='center'>My Projects</h1>
+        <h1 className='center'>My Projects</h1> <br />
         <Card.Group itemsPerRow={itemsPerRow}>
           {projects.map((project, index) => (
             <ProjectCard project={project} key={index} />
