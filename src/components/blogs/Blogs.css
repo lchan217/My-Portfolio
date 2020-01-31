@@ -1,0 +1,19 @@
+.blog-card div.description {
+  margin: 1em;
+  text-align: left;
+}
+
+.blog-cards-group {
+  margin: 0.5em;
+}
+
+.blog-card {
+  text-align: center;
+  height: 35em;
+}
+
+.blog-card:hover {
+  -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04);
+}

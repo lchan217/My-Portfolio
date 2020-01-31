@@ -1,6 +1,7 @@
 import React from "react";
 import Moment from "react-moment";
 import { Card, Image } from "semantic-ui-react";
+import "./Blogs.css";
 
 const Blogs = ({ title, content, thumbnail, guid, link, pubDate }) => {
   return (

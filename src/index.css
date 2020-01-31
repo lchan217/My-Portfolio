@@ -29,22 +29,8 @@ code {
   color: black;
 }
 
-.blog-cards-group {
-  margin: 10px;
-}
-
-.blog-card {
-  text-align: center;
-  height: 700px;
-}
-
 .header {
   margin: 20px;
-}
-
-.blog-card div.description {
-  margin: 20px;
-  text-align: left;
 }
 
 .center {
