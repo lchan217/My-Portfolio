@@ -21,7 +21,7 @@ function App() {
         <div id='wrapper'>
           <Route exact path='/' component={About} />
           <Route exact path='/projects' component={Projects} />
-          <Route exact path='/mini-projects' component={MiniProjects} />
+          {/* <Route exact path='/mini-projects' component={MiniProjects} /> */}
           <Route exact path='/experience' component={Experience} />
           <Route exact path='/blog' component={BlogContainer} />
           <Route exact path='/contact' component={Contact} />
