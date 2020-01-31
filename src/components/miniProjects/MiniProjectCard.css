@@ -3,6 +3,18 @@ div.ui.card.mini-proj-card {
   width: 15em;
 }
 
-img.ui.image {
+div.ui.card.mini-proj-card:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+img.ui.image.mini-proj-img {
   height: 10em;
+}
+
+@media screen and (max-width: 550px) {
+  div.ui.card.mini-proj-card {
+    width: 11em;
+  }
 }

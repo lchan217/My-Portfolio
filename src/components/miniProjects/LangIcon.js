@@ -1,10 +1,10 @@
 import React from "react";
 import { Icon } from "semantic-ui-react";
 
-const LangIcon = footer => {
+const LangIcon = tech => {
   return (
     <div className='center'>
-      {footer.footer.map(lang => {
+      {tech.tech.map(lang => {
         return <Icon name={`${lang}`} />;
       })}
     </div>
