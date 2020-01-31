@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Icon } from "semantic-ui-react";
+import { Card } from "semantic-ui-react";
 import { projects } from "./ProjectData";
 import ProjectCard from "./ProjectCard";
 
@@ -24,14 +24,8 @@ class Projects extends Component {
   };
 
   render() {
-    let isMobile;
-    const width = this.state.width;
-    width <= 1000 ? (isMobile = true) : (isMobile = false);
-
     let itemsPerRow;
-    isMobile ? (itemsPerRow = 1) : (itemsPerRow = 2);
-    let picHeight;
-    isMobile ? (picHeight = 150) : (picHeight = 250);
+    this.state.width <= 1000 ? (itemsPerRow = 1) : (itemsPerRow = 2);
 
     return (
       <div className='projects'>
