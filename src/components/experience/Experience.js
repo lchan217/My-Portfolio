@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Image, Card, Grid, Icon } from "semantic-ui-react";
+import "./Experience.css";
 
 class Experience extends Component {
   constructor(props) {
@@ -53,6 +54,7 @@ class Experience extends Component {
           href='https://drive.google.com/file/d/1dl8OKg9xQG3p257BiAkWhXK45xJtGH22/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
+          className='experience-link'
         >
           <Icon className='download icon'></Icon>VIEW FULL RESUME
         </a>

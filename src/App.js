@@ -5,7 +5,7 @@ import NavBar from "./components/navbar/NavBar";
 import About from "./components/About";
 import Projects from "./components/projects/Projects";
 import MiniProjects from "./components/miniProjects/MiniProjects";
-import Experience from "./components/Experience";
+import Experience from "./components/experience/Experience";
 import BlogContainer from "./components/blogs/BlogContainer";
 import Contact from "./components/contact/Contact";
 

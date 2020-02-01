@@ -56,3 +56,11 @@ img.ui.image.mini-proj-img {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+i.big.angle.double.right.icon:hover {
+  color: #0dbab1 !important;
+}
+
+i.big.github.icon:hover {
+  color: #0dbab1 !important;
+}
