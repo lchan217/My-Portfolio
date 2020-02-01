@@ -4,7 +4,7 @@ import { Image } from "semantic-ui-react";
 
 const Contact = () => {
   return (
-    <div className='contact-page center'>
+    <div className='contact-page center' style={{ paddingBottom: "14em" }}>
       <h1> Get In Touch </h1>
       Feel free to reach out with any questions. I am always happy to connect!{" "}
       <br /> <br />
@@ -15,7 +15,6 @@ const Contact = () => {
         alt='pic of site owner'
         centered='true'
       />
-      <br />
     </div>
   );
 };
