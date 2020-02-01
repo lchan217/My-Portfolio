@@ -25,7 +25,7 @@ const ProjectCard = ({
         style={{ height: `${height}` }}
       ></Image>
       <Card.Content>
-        <Card.Header>{header}</Card.Header>
+        <Card.Header className='center'>{header}</Card.Header>
         <Card.Meta className='center'>
           <a href={`${website}`} target='_blank' rel='noopener noreferrer'>
             <div className='tooltip'>
@@ -45,7 +45,8 @@ const ProjectCard = ({
               <span class='tooltiptext'>Demo</span>
             </div>
           </a>
-        </Card.Meta>
+        </Card.Meta>{" "}
+        <br /> <br />
         <Card.Description>{description}</Card.Description> <br />
         <Card.Description>{contribution}</Card.Description>
       </Card.Content>
