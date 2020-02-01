@@ -28,13 +28,22 @@ const ProjectCard = ({
         <Card.Header>{header}</Card.Header>
         <Card.Meta className='center'>
           <a href={`${website}`} target='_blank' rel='noopener noreferrer'>
-            <Icon name='big angle double right' />
+            <div className='tooltip'>
+              <Icon name='big angle double right' />
+              <span class='tooltiptext'>Website</span>
+            </div>
           </a>
           <a href={`${github}`} target='_blank' rel='noopener noreferrer'>
-            <Icon name='big github square' />
+            <div className='tooltip'>
+              <Icon name='big github square' />
+              <span class='tooltiptext'>Code</span>
+            </div>
           </a>
           <a href={`${demo}`} target='_blank' rel='noopener noreferrer'>
-            <Icon name='big youtube' />
+            <div className='tooltip'>
+              <Icon name='big youtube' />
+              <span class='tooltiptext'>Demo</span>
+            </div>
           </a>
         </Card.Meta>
         <Card.Description>{description}</Card.Description> <br />

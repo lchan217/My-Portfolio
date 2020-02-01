@@ -8,3 +8,41 @@ div.ui.card.project-card:hover {
   -webkit-transform: scale(1.04); /* Safari 3-8 */
   transform: scale(1.04);
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* box */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 5em;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  /* padding: 2em; */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 0.6em;
+}
+
+/* tiny arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
