@@ -1,5 +1,6 @@
 import React from "react";
 import ContactInfo from "./contact/ContactInfo";
+import { Image } from "semantic-ui-react";
 //
 // <p>Check out the Other Interests tab for some of my favorite things. I am always happy to give
 //   advice and hear recommendations!</p>
@@ -12,13 +13,13 @@ const About = () => {
       </div>
       <br></br>
       <div className='center'>
-        <img
-          // src='https://i.ibb.co/zsd76cr/20190916-121928-2.jpg'
+        <Image
+          centered='true'
+          size='small'
+          rounded='true'
           src='https://i.ibb.co/zfwHPyz/london-copy.jpg'
           alt='pic of site owner'
-          width={125}
-          height={185}
-        ></img>
+        />
       </div>
       <br />
       <p>
