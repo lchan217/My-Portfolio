@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Grid } from "semantic-ui-react";
+import { Image, Card, Grid, Icon } from "semantic-ui-react";
 
 class Experience extends Component {
   constructor(props) {
@@ -31,29 +31,21 @@ class Experience extends Component {
     return (
       <div className='experience'>
         <Card.Group itemsPerRow={3}>
-          <div class='card'>
-            <div class='image'>
-              <img
-                src='https://i.imgur.com/AVeu2yG.png'
-                alt='university of dayton logo'
-              ></img>
-            </div>
-          </div>
-
-          <div class='card'>
-            <div class='image'>
-              <img
-                src='https://i.imgur.com/0xJGBER.jpg'
-                alt='mondelez international logo'
-              ></img>
-            </div>
-          </div>
-
-          <div class='card'>
-            <div class='image'>
-              <img src='https://i.imgur.com/PFlNouF.jpg' alt='mars logo'></img>
-            </div>
-          </div>
+          <Card>
+            <Image
+              src='https://i.imgur.com/AVeu2yG.png'
+              alt='university of dayton logo'
+            />
+          </Card>
+          <Card>
+            <Image
+              src='https://i.imgur.com/0xJGBER.jpg'
+              alt='mondelez international logo'
+            />
+          </Card>
+          <Card>
+            <Image src='https://i.imgur.com/PFlNouF.jpg' alt='mars logo' />
+          </Card>
         </Card.Group>
         <br />
         <br />
@@ -62,7 +54,7 @@ class Experience extends Component {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='download icon'></i>VIEW FULL RESUME
+          <Icon className='download icon'></Icon>VIEW FULL RESUME
         </a>
         <h2>
           <u>Languages and Frameworks</u>
@@ -81,23 +73,9 @@ class Experience extends Component {
           <Grid.Column key={11}>Semantic UI</Grid.Column>
           <Grid.Column key={12}>Git</Grid.Column>
         </Grid>
-        {/* <div class='ui grid'>
-        <div class='five wide column'>Ruby on Rails</div>
-        <div class='five wide column'>Sinatra</div>
-        <div class='five wide column'>JavaScript</div>
-        <div class='five wide column'>jQuery</div>
-        <div class='five wide column'>ActiveRecord</div>
-        <div class='five wide column'>PostgreSQL</div>
-        <div class='five wide column'>SQLite</div>
-        <div class='five wide column'>CSS</div>
-        <div class='five wide column'>HTML</div>
-        <div class='five wide column'>Semantic UI</div>
-        <div class='five wide column'>Bootstrap</div>
-      </div> */}
         <h2>
           <u>My Experience</u>
         </h2>
-
         <div>
           <b>Mars, Incorporated</b>
         </div>
@@ -118,7 +96,6 @@ class Experience extends Component {
             Validated data and performed transactions as necessary using SAP
           </li>
         </ul>
-
         <div>
           <b>Mondelez International (Formerly Kraft Foods)</b>
         </div>
@@ -133,7 +110,6 @@ class Experience extends Component {
             feedback, and presented findings to upper management
           </li>
         </ul>
-
         <div>
           <b>Graduate of University of Dayton 2012</b>
         </div>
