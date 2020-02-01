@@ -37,7 +37,7 @@ class BlogContainer extends Component {
     } else {
       data = (
         <div>
-          <Card.Group itemsPerRow={3}>
+          <Card.Group stackable='true' itemsPerRow={3}>
             {this.state.blogs.map((blog, index) => (
               <Blogs key={index} {...blog} />
             ))}
