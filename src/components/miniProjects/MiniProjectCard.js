@@ -13,10 +13,17 @@ const ProjectCard = ({
         <Card.Header>{title}</Card.Header>
         <Card.Meta className='center'>
           <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
-            <Icon name='big angle double right' />
+            <div className='tooltip'>
+              {" "}
+              <Icon name='big angle double right' />
+              <span class='tooltiptext'>Website</span>
+            </div>
           </a>{" "}
           <a href={`${codelink}`} target='_blank' rel='noopener noreferrer'>
-            <Icon name='big github square' />
+            <div className='tooltip'>
+              <Icon name='big github square' />
+              <span class='tooltiptext'>Code</span>
+            </div>
           </a>
         </Card.Meta>
 
