@@ -4,11 +4,11 @@ import "./MiniProjectCard.css";
 import LangIcon from "./LangIcon";
 
 const ProjectCard = ({
-  project: { image, title, text, pagelink, codelink, tech }
+  project: { image, alt, title, text, pagelink, codelink, tech }
 }) => {
   return (
     <Card className='mini-proj-card'>
-      <Image src={`${image}`} className='mini-proj-img' />
+      <Image src={`${image}`} alt={`${alt}`} className='mini-proj-img' />
       <Card.Content>
         <Card.Header>{title}</Card.Header>
         <Card.Meta className='center'>
