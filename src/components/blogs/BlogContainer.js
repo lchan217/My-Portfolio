@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Blogs from "../blogs/Blogs";
-import { Dimmer, Loader, Image, Segment, Card } from "semantic-ui-react";
+import { Dimmer, Loader, Image, Segment, Card, Icon } from "semantic-ui-react";
+import "./Blogs.css";
 
 class BlogContainer extends Component {
   state = {
@@ -35,11 +36,24 @@ class BlogContainer extends Component {
       );
     } else {
       data = (
-        <Card.Group itemsPerRow={3}>
-          {this.state.blogs.map((blog, index) => (
-            <Blogs key={index} {...blog} />
-          ))}
-        </Card.Group>
+        <div>
+          <Card.Group itemsPerRow={3}>
+            {this.state.blogs.map((blog, index) => (
+              <Blogs key={index} {...blog} />
+            ))}
+          </Card.Group>
+          <h2 className='center'>
+            <a
+              href='https://medium.com/@lchan217'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='blog-link'
+            >
+              See More Posts{" "}
+              <Icon className='arrow alternate circle right'></Icon>
+            </a>
+          </h2>
+        </div>
       );
     }
 

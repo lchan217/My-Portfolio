@@ -17,3 +17,11 @@
   -webkit-transform: scale(1.04); /* Safari 3-8 */
   transform: scale(1.04);
 }
+
+.blog-link {
+  color: gray;
+}
+
+.blog-link:hover {
+  color: #0dbab1;
+}
