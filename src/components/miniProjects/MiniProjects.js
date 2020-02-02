@@ -45,8 +45,8 @@ class MiniProjects extends Component {
             target='_blank'
           >
             frontend mentor challenges
-          </a>
-          . Any feedback is welcomed. Enjoy!
+          </a>{" "}
+          I am currently working on. Any feedback is welcomed. Enjoy!
         </p>
         <br />
         <Card.Group itemsPerRow={itemsPerRow}>
