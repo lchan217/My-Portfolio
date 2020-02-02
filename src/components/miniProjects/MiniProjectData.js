@@ -12,7 +12,7 @@ export const MiniProjectData = [
     tech: ["react", "js", "css3"]
   },
   {
-    image: "https://i.ibb.co/xzcCdTR/Screen-Shot-2020-01-26-at-10-48-14-AM.png",
+    image: "https://i.ibb.co/k4Vk0Wc/Screen-Shot-2020-02-01-at-5-42-46-PM.png",
     alt: "weather app thumbnail",
     title: "Weather App",
     text:
@@ -24,6 +24,7 @@ export const MiniProjectData = [
     tech: ["react", "js", "css3"]
     // "Technologies and Frameworks: React, Redux, CSS, JavaScript, Semantic UI",
   },
+
   {
     image: "https://i.ibb.co/DDMLxbh/Screen-Shot-2020-01-26-at-10-50-03-AM.png",
     alt: "coming soon thumbnail",
