@@ -8,7 +8,7 @@ import "./navbar.css";
 const NavBar = () => {
   return (
     <div className='navBar'>
-      <Menu fixed='top' widths={5}>
+      <Menu fixed='top' widths={6}>
         <Menu.Item>
           {" "}
           <Link className='link' to='/'>
@@ -21,10 +21,12 @@ const NavBar = () => {
             Projects
           </Link>
         </Menu.Item>
-        {/* <Menu.Item>
+        <Menu.Item>
           {" "}
-          <Link  className='link' to='/mini-projects'>Mini Projects</Link>
-        </Menu.Item> */}
+          <Link className='link' to='/mini-projects'>
+            Mini Projects
+          </Link>
+        </Menu.Item>
         <Menu.Item>
           {" "}
           <Link className='link' to='/experience'>
