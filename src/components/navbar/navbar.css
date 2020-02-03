@@ -1,3 +1,7 @@
 .link:hover {
   color: black;
 }
+.menu-item:hover {
+  background-color: #0dbab1 !important;
+  cursor: pointer;
+}

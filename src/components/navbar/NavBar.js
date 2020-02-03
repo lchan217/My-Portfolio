@@ -9,37 +9,37 @@ const NavBar = () => {
   return (
     <div className='navBar'>
       <Menu fixed='top' widths={6}>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/'>
             About Me
           </Link>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/projects'>
             Projects
           </Link>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/mini-projects'>
             Mini Projects
           </Link>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/experience'>
             Experience
           </Link>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/blog'>
             Blog
           </Link>
         </Menu.Item>
-        <Menu.Item>
+        <Menu.Item className='menu-item'>
           {" "}
           <Link className='link' to='/contact'>
             Contact
