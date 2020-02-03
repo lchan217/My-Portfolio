@@ -4,7 +4,7 @@ export const MiniProjectData = [
     alt: "star wars app thumbnail",
     title: "Star Wars API",
     text:
-      "Web app that fetches from swapi.co and displays Star Wars movies and their characters",
+      "Web app that fetches from Star Wars API and displays Star Wars movies and their characters",
     challenge:
       "CSS flex boxes and grids, popout box, fulfilling multiple promises and updating state all at once",
     pagelink: "https://star-wars-tech-challenge.netlify.com/",
@@ -16,7 +16,7 @@ export const MiniProjectData = [
     alt: "weather app thumbnail",
     title: "Weather App",
     text:
-      "Web app that fetches Munich weather data and displays daily temperature",
+      "Web app that fetches from Munich weather API and displays daily temperature",
     challenge:
       "How to create a bar chart using react-vis, pagination concept, refresher on using redux store",
     pagelink: "https://weather-tech-challenge.netlify.com/",
