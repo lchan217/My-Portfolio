@@ -1,12 +1,22 @@
-div.ui.card.mini-proj-card {
-  height: 35em;
-  width: 15em;
+div.item.mini-proj-Item {
+  border: double !important;
+  padding: 2em !important;
+  border-color: #0dbab1 !important;
 }
 
-div.ui.card.mini-proj-card:hover {
+.mini-proj-link:hover {
+  color: #0dbab1 !important;
+}
+
+div.item.mini-proj-Item:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
+}
+
+img.ui.small.image.mini-proj-img {
+  object-fit: "cover";
+  height: 12em;
 }
 /* 
 img.ui.image.mini-proj-img {

@@ -1,7 +1,6 @@
 import React from "react";
 import { Item, Image, Icon } from "semantic-ui-react";
 import "./MiniProjectCard.css";
-import LangIcon from "./LangIcon";
 
 const ProjectItem = ({
   project: { image, alt, title, text, challenge, pagelink, codelink, tech }
@@ -23,7 +22,7 @@ const ProjectItem = ({
             {challenge}
           </p>
         </Item.Description>
-        <Item.Meta className='center'>
+        <Item.Meta>
           <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
             <div className='tooltip'>
               {" "}
@@ -38,9 +37,6 @@ const ProjectItem = ({
             </div>
           </a>
         </Item.Meta>
-        <Item.Extra>
-          <LangIcon tech={tech} />
-        </Item.Extra>
       </Item.Content>
     </Item>
   );

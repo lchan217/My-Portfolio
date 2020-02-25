@@ -43,6 +43,7 @@ class MiniProjects extends Component {
             href='https://www.frontendmentor.io/challenges'
             rel='noopener noreferrer'
             target='_blank'
+            className='mini-proj-link'
           >
             frontend mentor challenges
           </a>{" "}
