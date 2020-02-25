@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./MiniProjectCard";
 import { MiniProjectData } from "./MiniProjectData";
-import { Card } from "semantic-ui-react";
+import { Item } from "semantic-ui-react";
 
 class MiniProjects extends Component {
   constructor(props) {
@@ -49,11 +49,11 @@ class MiniProjects extends Component {
           I am currently working on. Any feedback is welcomed. Enjoy!
         </p>
         <br />
-        <Card.Group itemsPerRow={itemsPerRow}>
+        <Item.Group itemsPerRow={itemsPerRow}>
           {MiniProjectData.map((project, index) => (
             <ProjectCard project={project} key={index} />
           ))}
-        </Card.Group>
+        </Item.Group>
       </div>
     );
   }
