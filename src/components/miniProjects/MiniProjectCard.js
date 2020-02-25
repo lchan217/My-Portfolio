@@ -16,6 +16,13 @@ const ProjectItem = ({
       />
       <Item.Content>
         <Item.Header>{title}</Item.Header>
+        <Item.Description>
+          <p>{text} </p>
+          <p>
+            <b>What I Learned: </b>
+            {challenge}
+          </p>
+        </Item.Description>
         <Item.Meta className='center'>
           <a href={`${pagelink}`} target='_blank' rel='noopener noreferrer'>
             <div className='tooltip'>
@@ -31,17 +38,9 @@ const ProjectItem = ({
             </div>
           </a>
         </Item.Meta>
-
-        <Item.Description>
-          <p>{text} </p>
-          <p>
-            <b>What I Learned: </b>
-            {challenge}
-          </p>
-        </Item.Description>
-      </Item.Content>
-      <Item.Content extra>
-        <LangIcon tech={tech} />
+        <Item.Extra>
+          <LangIcon tech={tech} />
+        </Item.Extra>
       </Item.Content>
     </Item>
   );
