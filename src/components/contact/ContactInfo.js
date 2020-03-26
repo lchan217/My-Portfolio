@@ -5,7 +5,7 @@ import "./Contact.css";
 const ContactInfo = () => {
   return (
     <div className='contactInfo center'>
-      <a href='mailto:lchan217@gmail.com'>
+      <a href='mailto:elizabethchan30@gmail.com'>
         <Icon color='violet' className='envelope large outline icon'></Icon>
       </a>
       <a
