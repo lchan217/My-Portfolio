@@ -7,7 +7,7 @@ export const MiniProjectData = [
       "Web app that fetches from Star Wars API and displays Star Wars movies and their characters",
     challenge:
       "CSS flex boxes and grids, popout box, fulfilling multiple promises and updating state all at once",
-    pagelink: "https://star-wars-tech-challenge.netlify.com/",
+    pagelink: "https://star-wars-tech-challenge.netlify.app/",
     codelink: "https://github.com/lchan217/star-wars-api",
     tech: ["react", "js", "css3"]
   },
@@ -19,7 +19,7 @@ export const MiniProjectData = [
       "Web app that fetches from Munich weather API and displays daily temperature",
     challenge:
       "How to create a bar chart using react-vis, pagination concept, refresher on using redux store",
-    pagelink: "https://weather-tech-challenge.netlify.com/",
+    pagelink: "https://weather-tech-challenge.netlify.app/",
     codelink: "https://github.com/lchan217/weather-app",
     tech: ["react", "js", "css3"]
     // "Technologies and Frameworks: React, Redux, CSS, JavaScript, Semantic UI",
@@ -33,7 +33,7 @@ export const MiniProjectData = [
       "Webpage that shows a landing page for a future company with email validation",
     challenge:
       "Email validation and error message, flex boxes, input appearance",
-    pagelink: "https://coming-soon-page-example.netlify.com/",
+    pagelink: "https://coming-soon-page-example.netlify.app/",
     codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
     tech: ["css3 ", "js"]
   }
