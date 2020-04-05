@@ -6,7 +6,7 @@ class Experience extends Component {
   constructor(props) {
     super();
     this.state = {
-      width: window.innerWidth
+      width: window.innerWidth,
     };
   }
 
@@ -78,6 +78,34 @@ class Experience extends Component {
         <h2>
           <u>My Experience</u>
         </h2>
+        <div>
+          <b>
+            <a
+              href='https://codigo-ecuador.firebaseapp.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='experience-link'
+            >
+              Código Ecuador
+            </a>{" "}
+          </b>
+        </div>
+        <i>Freelance Developer, October 2019 - February 2020 </i>
+
+        <ul>
+          <li>
+            Set up objects for the Donate and Minor Partners pages, allowing
+            components to map over object and show Semantic UI Cards
+          </li>
+          <li>
+            Used CSS for the Board of Directors page and final adjustments on
+            all pages
+          </li>
+          <li>
+            Taught Ecuador team basics of React so they can monitor the code
+            going forward
+          </li>
+        </ul>
         <div>
           <b>Mars, Incorporated</b>
         </div>
