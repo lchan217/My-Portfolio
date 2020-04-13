@@ -39,12 +39,12 @@ const ProjectCard = ({
               <span class='tooltiptext'>Code</span>
             </div>
           </a>
-          <a href={`${demo}`} target='_blank' rel='noopener noreferrer'>
+          {/* <a href={`${demo}`} target='_blank' rel='noopener noreferrer'>
             <div className='tooltip'>
               <Icon name='big youtube' />
               <span class='tooltiptext'>Demo</span>
             </div>
-          </a>
+          </a> */}
         </Card.Meta>{" "}
         <br /> <br />
         <Card.Description>{description}</Card.Description> <br />

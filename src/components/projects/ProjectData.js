@@ -6,8 +6,7 @@ export const projects = [
     alt: "latina women standing together",
     header: "Codigo Ecuador",
     website: "https://codigo-ecuador.firebaseapp.com/",
-    github:
-      "https://github.com/codigoecuador/codigo-ecuador-web'https://github.com/codigoecuador/codigo-ecuador-web",
+    github: "https://github.com/codigoecuador/codigo-ecuador-web",
     demo: null,
     description:
       "Group collaboration project working with a team in Ecuador to help them with creating their website",
@@ -52,7 +51,7 @@ export const projects = [
     header: "Animals Game",
     website: "https://animals-game.herokuapp.com/",
     github: "https://github.com/lchan217/Project-5-Animals-Game",
-    demo: "https://www.youtube.com/watch?v=u_D9pj6gzo8",
+    // demo: "https://www.youtube.com/watch?v=u_D9pj6gzo8", need to record a new one
     description:
       "App where users save endangered animals, nurse them back to health, and release into the wild",
     contribution: null,
