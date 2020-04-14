@@ -38,16 +38,7 @@ class MiniProjects extends Component {
         <h1 className='center'>Mini Projects</h1>
         <p>
           This is a compilation of solo and collaboration mini-projects from
-          interview tech challenges and {""}
-          <a
-            href='https://www.frontendmentor.io/challenges'
-            rel='noopener noreferrer'
-            target='_blank'
-            className='mini-proj-link'
-          >
-            frontend mentor challenges
-          </a>{" "}
-          I am currently working on. Any feedback is welcomed. Enjoy!
+          past interview tech challenges. Any feedback is welcomed. Enjoy!
         </p>
         <br />
         <Item.Group itemsPerRow={itemsPerRow}>

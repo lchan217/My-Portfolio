@@ -37,6 +37,9 @@ const ProjectItem = ({
             </div>
           </a>
         </Item.Meta>
+        <Item.Extra>
+          Technologies and Frameworks: <i>{tech.join(", ")}</i>
+        </Item.Extra>
       </Item.Content>
     </Item>
   );
