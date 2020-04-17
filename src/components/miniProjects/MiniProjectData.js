@@ -1,15 +1,15 @@
 export const MiniProjectData = [
-  {
-    image: "https://i.ibb.co/C9qnQsq/Screen-Shot-2020-04-14-at-9-28-30-AM.png",
-    alt: "course search thumbnail",
-    title: "Course Search",
-    text:
-      "Webpage that fetches list of courses and allows user to browse and find something to learn",
-    challenge: "Search and filter features",
-    pagelink: "https://course-search.netlify.app/",
-    codelink: "https://github.com/lchan217/courses_task1",
-    tech: ["React", "JavaScript", "Semantic UI React"]
-  },
+  // {
+  //   image: "https://i.ibb.co/C9qnQsq/Screen-Shot-2020-04-14-at-9-28-30-AM.png",
+  //   alt: "course search thumbnail",
+  //   title: "Course Search",
+  //   text:
+  //     "Webpage that fetches list of courses and allows user to browse and find something to learn",
+  //   challenge: "Search and filter features",
+  //   pagelink: "https://course-search.netlify.app/",
+  //   codelink: "https://github.com/lchan217/courses_task1",
+  //   tech: ["React", "JavaScript", "Semantic UI React"]
+  // },
   // swapi fetch website doesn't exist as of 4/14/2020
   // {
   //   image: "https://i.ibb.co/2gFX53Q/Screen-Shot-2020-01-27-at-4-13-31-PM.png",
@@ -33,7 +33,7 @@ export const MiniProjectData = [
       "How to create a bar chart using react-vis, pagination concept, refresher on using redux store",
     pagelink: "https://weather-tech-challenge.netlify.app/",
     codelink: "https://github.com/lchan217/weather-app",
-    tech: ["React", "Redux", "JavaScript", "CSS", "Semantic UI React"]
+    tech: ["React", "Redux", "JavaScript", "CSS", "Semantic UI React"],
   },
 
   {
@@ -46,6 +46,6 @@ export const MiniProjectData = [
       "Email validation and error message, flex boxes, input appearance",
     pagelink: "https://coming-soon-page-example.netlify.app/",
     codelink: "https://github.com/kyoung90/Single-Column-Coming-Soon-Page",
-    tech: ["CSS", "JavaScript"]
-  }
+    tech: ["CSS", "JavaScript"],
+  },
 ];
