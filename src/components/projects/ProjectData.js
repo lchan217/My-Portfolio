@@ -13,7 +13,7 @@ export const projects = [
     contribution:
       "My Contribution: Set up the Donate, Board of Directors, and Minor Partners pages; assisted with styling using Semantic UI and CSS",
     tech: "React, Redux, Semantic UI, CSS",
-    height: "auto"
+    height: "auto",
   },
 
   {
@@ -26,9 +26,10 @@ export const projects = [
     demo: "https://www.youtube.com/watch?v=4wTQYPsNjJ8",
     description:
       "App that allows users to enter information about restaurants and their menu items",
-    contribution: null,
+    contribution:
+      "I'm aware authentication is currently not working and am working on a solution",
     tech: "Rails, JavaScript, jQuery",
-    height: "16em"
+    height: "16em",
   },
   {
     image:
@@ -42,7 +43,7 @@ export const projects = [
     contribution:
       "My Contribution: Setting up models and controllers, assisted with views and debugging towards completion",
     tech: "Rails, Bootstrap, CSS",
-    height: "auto"
+    height: "auto",
   },
   {
     image:
@@ -56,7 +57,7 @@ export const projects = [
       "App where users save endangered animals, nurse them back to health, and release into the wild",
     contribution: null,
     tech: "React, Redux, Rails API, Semantic UI",
-    height: "auto"
+    height: "auto",
   },
   {
     image:
@@ -70,8 +71,8 @@ export const projects = [
       "App designed to log destinations user has visited and would like to visit",
     contribution: null,
     tech: "Sinatra, CSS, Bootstrap",
-    height: "auto"
-  }
+    height: "auto",
+  },
 ];
 
 // TEMPLATE
