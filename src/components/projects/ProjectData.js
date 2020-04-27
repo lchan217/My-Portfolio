@@ -25,7 +25,7 @@ export const projects = [
     github: "https://github.com/lchan217/Project-3-Restaurants-Flatiron-Final",
     demo: "https://www.youtube.com/watch?v=4wTQYPsNjJ8",
     description:
-      "App that allows users to enter information about restaurants and their menu items",
+      "App that allows users to log in using authentication, and enter information about restaurants and their menu items",
     contribution: null,
     tech: "Rails, JavaScript, jQuery",
     height: "16em",
