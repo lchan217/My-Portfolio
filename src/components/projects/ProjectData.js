@@ -26,8 +26,7 @@ export const projects = [
     demo: "https://www.youtube.com/watch?v=4wTQYPsNjJ8",
     description:
       "App that allows users to enter information about restaurants and their menu items",
-    contribution:
-      "I'm aware authentication is currently not working and am working on a solution",
+    contribution: null,
     tech: "Rails, JavaScript, jQuery",
     height: "16em",
   },
