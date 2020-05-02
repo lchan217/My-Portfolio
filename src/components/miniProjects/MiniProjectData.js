@@ -24,6 +24,16 @@ export const MiniProjectData = [
   //   tech: ["React", "JavaScript", "CSS"]
   // },
   {
+    image: "https://i.ibb.co/KVx9Jn2/Screen-Shot-2020-05-02-at-11-41-23-AM.png",
+    alt: "authentication thumbnail",
+    title: "Playing With Authentication",
+    text: "Web app that allows login through Google, Twitter, and GitHub",
+    challenge: "Authentication with 3 providers",
+    pagelink: "https://playing-with-authentication.herokuapp.com/",
+    codelink: "https://github.com/lchan217/playing-with-authentication",
+    tech: ["Rails", "Bootstrap"],
+  },
+  {
     image: "https://i.ibb.co/k4Vk0Wc/Screen-Shot-2020-02-01-at-5-42-46-PM.png",
     alt: "weather app thumbnail",
     title: "Weather App",
