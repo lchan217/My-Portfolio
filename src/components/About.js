@@ -51,6 +51,12 @@ const About = () => {
         big process in detail, follow the flow, and fix the bug independently.
       </p>
       <p>
+        Over the last year I worked for CaddieNow as a Full Stack Developer, until January 2021
+        when I was laid off unexpectedly. I gained experience picking up on existing patterns and
+        integrating new features with little to no guidance as well as reinforcing my knowledge
+        of Ruby on Rails and React.
+      </p>
+      <p>
         I look forward to expanding my knowledge of languages, contributing my
         persistent work ethic, and changing my career to something I am
         passionate about.
