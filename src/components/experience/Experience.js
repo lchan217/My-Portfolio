@@ -51,7 +51,7 @@ class Experience extends Component {
         <br />
         <br />
         <a
-          href='https://drive.google.com/file/d/1KSmvlXvU6bXSfuCAvnP1cJ0xsvqE9xf7/view?usp=sharing'
+          href='https://drive.google.com/file/d/135eoeNJqgZBMw5Hr_TmsUlDN4F-tktFc/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='experience-link'
@@ -78,6 +78,32 @@ class Experience extends Component {
         <h2>
           <u>My Experience</u>
         </h2>
+        <div>
+          <div>
+            <b>CaddieNow</b>
+          </div>
+          <i>Full Stack Developer, May 2020 - January 2021</i>
+          <ul>
+            <li>
+              Using JavaScript and SCSS, programmed standard styles and behaviors consistent with updated CaddieNow style guide
+            </li>
+            <li>
+              Integrated Stripe API with new approval process
+            </li>
+            <li>
+              Rebuilt club setup and review forms using the Simple Form gem and JavaScript to enter fields without page refresh
+            </li>
+            <li>
+              Made sure any database and API modifications were compatible with mobile app since mobile code could not be accessed
+            </li>
+            <li>
+              Changed database and Active Record associations to support multiple review categories for caddies and golfers
+            </li>
+            <li>
+              Coded new business rules for sending review request text messages and auto approving bookings using Delayed Job gem
+            </li>
+          </ul>
+        </div>
         <div>
           <b>
             <a
