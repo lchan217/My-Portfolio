@@ -9,9 +9,9 @@ div.item.mini-proj-Item {
 }
 
 div.item.mini-proj-Item:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01);
 }
 
 img.ui.small.image.mini-proj-img {

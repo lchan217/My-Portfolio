@@ -32,20 +32,6 @@ export const projects = [
   },
   {
     image:
-      "https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
-    alt: "hogwarts at night",
-    header: "Hog-Iron Collaboration Project",
-    website: "https://hog-iron.herokuapp.com/",
-    github: "https://github.com/BebopVinh/Hog-Iron",
-    demo: "https://www.youtube.com/watch?v=1phiL0-Jcxk&feature=youtu.be",
-    description: "App where user can sign up for classes at Hogwarts",
-    contribution:
-      "My Contribution: Setting up models and controllers, assisted with views and debugging towards completion",
-    tech: "Rails, Bootstrap, CSS",
-    height: "auto",
-  },
-  {
-    image:
       "https://images.unsplash.com/photo-1509870925592-d67b587a2713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     alt: "wild zebra",
     header: "Animals Game",
@@ -60,18 +46,18 @@ export const projects = [
   },
   {
     image:
-      "https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-    alt: "blue ocean in Vietnam",
-    header: "Destination Tracker",
-    website: "https://destinations1000.herokuapp.com/",
-    github: "https://github.com/lchan217/Project-2-Travel",
-    demo: "https://www.youtube.com/watch?v=A1OR5Khzv38",
-    description:
-      "App designed to log destinations user has visited and would like to visit",
-    contribution: null,
-    tech: "Sinatra, CSS, Bootstrap",
+      "https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+    alt: "hogwarts at night",
+    header: "Hog-Iron Collaboration Project",
+    website: "https://hog-iron.herokuapp.com/",
+    github: "https://github.com/BebopVinh/Hog-Iron",
+    demo: "https://www.youtube.com/watch?v=1phiL0-Jcxk&feature=youtu.be",
+    description: "App where user can sign up for classes at Hogwarts",
+    contribution:
+      "My Contribution: Setting up models and controllers, assisted with views and debugging towards completion",
+    tech: "Rails, Bootstrap, CSS",
     height: "auto",
-  },
+  }
 ];
 
 // TEMPLATE
@@ -103,4 +89,18 @@ export const projects = [
 //     " App allows users to see the 2018 Goodreads Choice Awards winners and their author, title, rating, and description",
 //   contribution: null,
 //   tech: "Technologies and Frameworks: Ruby, Nokogiri "
-// }
+// },
+// {
+//   image:
+//     "https://images.unsplash.com/photo-1542533382-b42a59d8bd39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+//   alt: "blue ocean in Vietnam",
+//   header: "Destination Tracker",
+//   website: "https://destinations1000.herokuapp.com/",
+//   github: "https://github.com/lchan217/Project-2-Travel",
+//   demo: "https://www.youtube.com/watch?v=A1OR5Khzv38",
+//   description:
+//     "App designed to log destinations user has visited and would like to visit",
+//   contribution: null,
+//   tech: "Sinatra, CSS, Bootstrap",
+//   height: "auto",
+// },

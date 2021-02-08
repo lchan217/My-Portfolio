@@ -10,19 +10,18 @@ export const MiniProjectData = [
   //   codelink: "https://github.com/lchan217/courses_task1",
   //   tech: ["React", "JavaScript", "Semantic UI React"]
   // },
-  // swapi fetch website doesn't exist as of 4/14/2020
-  // {
-  //   image: "https://i.ibb.co/2gFX53Q/Screen-Shot-2020-01-27-at-4-13-31-PM.png",
-  //   alt: "star wars app thumbnail",
-  //   title: "Star Wars API",
-  //   text:
-  //     "Web app that fetches from Star Wars API and displays Star Wars movies and their characters",
-  //   challenge:
-  //     "CSS flex boxes and grids, popout box, fulfilling multiple promises and updating state all at once",
-  //   pagelink: "https://star-wars-tech-challenge.netlify.app/",
-  //   codelink: "https://github.com/lchan217/star-wars-api",
-  //   tech: ["React", "JavaScript", "CSS"]
-  // },
+  {
+    image: "https://i.ibb.co/2gFX53Q/Screen-Shot-2020-01-27-at-4-13-31-PM.png",
+    alt: "star wars app thumbnail",
+    title: "Star Wars API",
+    text:
+      "Web app that fetches from Star Wars API and displays Star Wars movies and their characters",
+    challenge:
+      "CSS flex boxes and grids, media queries, popout modal, fulfilling multiple promises and updating state all at once",
+    pagelink: "https://star-wars-tech-challenge.netlify.app/",
+    codelink: "https://github.com/lchan217/star-wars-api",
+    tech: ["React", "JavaScript", "CSS"]
+  },
   {
     image: "https://i.ibb.co/KVx9Jn2/Screen-Shot-2020-05-02-at-11-41-23-AM.png",
     alt: "authentication thumbnail",
