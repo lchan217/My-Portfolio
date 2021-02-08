@@ -1,3 +1,7 @@
 .experience-link:hover {
   color: #0dbab1 !important;
 }
+
+li {
+  margin: 5px 0;
+}

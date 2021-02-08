@@ -51,7 +51,7 @@ class Experience extends Component {
         <br />
         <br />
         <a
-          href='https://drive.google.com/file/d/135eoeNJqgZBMw5Hr_TmsUlDN4F-tktFc/view?usp=sharing'
+          href='https://drive.google.com/file/d/1csWHCqcyxnBoYsMgD0K9ZJHynmVoLC8S/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='experience-link'
@@ -88,7 +88,7 @@ class Experience extends Component {
               Using JavaScript and SCSS, programmed standard styles and behaviors consistent with updated CaddieNow style guide
             </li>
             <li>
-              Integrated Stripe API with new approval process
+              Integrated Stripe API with new booking approval process
             </li>
             <li>
               Rebuilt club setup and review forms using the Simple Form gem and JavaScript to enter fields without page refresh
@@ -97,7 +97,7 @@ class Experience extends Component {
               Made sure any database and API modifications were compatible with mobile app since mobile code could not be accessed
             </li>
             <li>
-              Changed database and Active Record associations to support multiple review categories for caddies and golfers
+              Changed database and ActiveRecord associations from single to multiple reviews for caddies and golfers
             </li>
             <li>
               Coded new business rules for sending review request text messages and auto approving bookings using Delayed Job gem
