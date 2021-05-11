@@ -50,14 +50,14 @@ class Experience extends Component {
         </Card.Group>
         <br />
         <br />
-        <a
+        {/* <a
           href='https://drive.google.com/file/d/1csWHCqcyxnBoYsMgD0K9ZJHynmVoLC8S/view?usp=sharing'
           target='_blank'
           rel='noopener noreferrer'
           className='experience-link'
         >
           <Icon className='download icon'></Icon>VIEW FULL RESUME
-        </a>
+        </a> */}
         <h2>
           <u>Languages and Frameworks</u>
         </h2>
