@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Image, Card, Grid, Icon } from "semantic-ui-react";
+import { Image, Card, Grid } from "semantic-ui-react";
 import "./Experience.css";
 
 class Experience extends Component {
